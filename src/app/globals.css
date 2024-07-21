@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+[data-simulation='range']::-webkit-slider-thumb {
+  @apply h-4 w-4 bg-amber-400;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

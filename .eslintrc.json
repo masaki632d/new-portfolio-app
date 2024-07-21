@@ -1,3 +1,62 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    // おすすめ設定
+    "eslint:recommended",
+    // TypeScript で チェックされる項目 を Lintから除外する設定
+    "plugin:@typescript-eslint/recommended",
+    // Next.js用 の設定
+    "next/core-web-vitals",
+    // TailwindCSS の ソートの設定
+    "plugin:tailwindcss/recommended",
+    // この prettier の extends は 他のextends より後に記述する
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "simple-import-sort", "tailwindcss"],
+  "rules": {
+    // 他ルールとバッティングするので off にする
+    // "@typescript-eslint/no-unused-vars": "off",
+    // 不要なimportを自動で削除する場合 に追加
+    // "unused-imports/no-unused-imports": "warn",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin", // Node.js の組み込みモジュール
+          "external", // 外部ライブラリ（npm パッケージなど）
+          "internal", // プロジェクト内のモジュールで、パスを指定してインポートされたもの
+          "parent", // 親ディレクトリ からのインポート
+          "sibling", // 同じディレクトリ からのインポート
+          "index", // インデックスファイル（index.jsなど）
+          "type" // 型のインポート（TypeScript 用）
+        ],
+        // グループ間に 空白行 が入る
+        "newlines-between": "always",
+        // アルファベットの昇順 に並び替えられる
+        "alphabetize": {
+          // 昇順にソート
+          "order": "asc",
+          // 大/小文字関係なくアルファベット順に
+          "caseInsensitive": true
+        },
+        // React関連のimport を 他の外部ライブラリより前に配置
+        "pathGroups": [
+          {
+            // `react` に関連するインポートを特定のグループに位置付け
+            "pattern": "react**",
+            "group": "external",
+            "position": "before"
+          }
+        ],
+        // pathGroups は builtin or externalモジュール で機能しないようなので pattern適用のために設定追加
+        // `react` を 外部ライブラリとして除外（`pathGroups` で処理）
+        "pathGroupsExcludedImportTypes": ["react"]
+      }
+    ],
+    "tailwindcss/classnames-order": "warn",
+    "tailwindcss/no-custom-classname": "off"
+  }
 }
