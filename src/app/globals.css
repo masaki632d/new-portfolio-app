@@ -2,17 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-[data-simulation='range']::-webkit-slider-thumb {
-  @apply h-4 w-4 bg-amber-400;
+@font-face {
+  font-family: "agustina";
+  src: url("/fonts/Agustina-Signature.otf") format("opentype");
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-/* ここから追加 */
 html {
   scroll-behavior: smooth;
 }
@@ -23,9 +17,17 @@ body {
   background-position: 0 0;
 }
 
-@font-face {
-  font-family: "agustina";
-  src: url("/fonts/Agustina-Signature.otf") format("opentype");
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--incognito), "Inter", sans-serif;
+}
+
+/* path画像 を infinite させる */
+.path {
+  stroke-dasharray: 500px 100px;
+  animation: animate 100s linear infinite alternate-reverse;
 }
 
 @keyframes animate {

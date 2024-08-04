@@ -4,6 +4,9 @@ import { Footer } from '@components/Footer'
 import { Navbar } from '@components/Navbar'
 import { Providers } from '@components/providers'
 
+import { incognito } from './assets/font/font'
+import { gitlabmono } from './assets/font/font'
+
 import type { Metadata } from 'next'
 import '@app/globals.css'
 
@@ -23,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning className="scroll-smooth">
       <body
-        className={`${inter.className} bg-white text-zinc-700 dark:bg-zinc-900 dark:text-white`}
+        className={`${incognito.variable} ${inter.className} ${gitlabmono.variable} bg-white text-zinc-700 dark:bg-zinc-900 dark:text-white`}
       >
         <Providers>
           <Navbar />

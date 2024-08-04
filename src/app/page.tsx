@@ -1,9 +1,9 @@
-import { Test } from '@components/Test'
+import { Hero } from '@components/features/top/Hero'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Test />
+    <main className="mx-auto mt-20 px-6 md:px-16">
+      <Hero />
     </main>
   )
 }
