@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 
+import { Footer } from '@components/Footer'
 import { Navbar } from '@components/Navbar'
 import { Providers } from '@components/providers'
 
@@ -21,11 +22,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} bg-white text-zinc-700 dark:bg-zinc-900 dark:text-white`}
+      >
         <Providers>
           <Navbar />
 
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>
