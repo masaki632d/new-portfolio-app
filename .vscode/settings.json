@@ -1,8 +1,9 @@
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
   }
+  // CSS で tailwindcss を利用する場合に使用
+  // "files.associations": {
+  //   "*.css": "tailwindcss"
+  // }
 }
