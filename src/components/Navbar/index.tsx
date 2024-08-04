@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { ThemeSwitchButton } from '@components/ThemeSwitchButton'
+import { ThemeSwitchButton } from '@components/Navbar/ThemeSwitchButton'
 
 import { data } from './constants/data'
 import { MobileMenu } from './MobileMenu'
