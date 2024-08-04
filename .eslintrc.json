@@ -8,7 +8,7 @@
     "next/core-web-vitals",
     // TailwindCSS の ソートの設定
     "plugin:tailwindcss/recommended",
-    // この prettier の extends は 他のextends より後に記述する
+    // prettier の extends は、他のextends より後に記述して優先させる
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
