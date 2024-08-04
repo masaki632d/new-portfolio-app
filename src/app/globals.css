@@ -16,16 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 [data-simulation='range']::-webkit-slider-thumb {
   @apply h-4 w-4 bg-amber-400;
 }
@@ -33,5 +23,25 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+/* ここから追加 */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../../public/noise.png");
+  background-size: 200px 200px;
+  background-position: 0 0;
+}
+
+@keyframes animate {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 12433.8193359375;
   }
 }
