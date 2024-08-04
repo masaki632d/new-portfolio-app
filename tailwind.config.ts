@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        signature: ['agustina', 'sans-serif'],
+        incognito: ['var(--incognito)'],
+        inter: ['var(--inter)'],
+      },
       colors: {
         'primary-color': '#33E092',
         'secondary-color': '#0CCE6B',
