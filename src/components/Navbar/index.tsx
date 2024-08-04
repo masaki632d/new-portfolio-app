@@ -11,7 +11,7 @@ export const Navbar = () => {
       data-layout="Navbar"
       className="mb-10 border-b border-zinc-200 p-6 text-sm md:mb-28 md:px-16 dark:border-zinc-800"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between">
+      <div className="mx-auto flex max-w-5xl items-center justify-between">
         <div className="font-signature text-2xl capitalize text-primary-color duration-300 hover:opacity-70">
           <Link href="/" className="block">
             portfolio
