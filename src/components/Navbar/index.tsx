@@ -11,10 +11,9 @@ export const Navbar = () => {
       className="mb-10 border-b border-zinc-200 p-6 text-sm md:mb-28 md:px-16 dark:border-zinc-800"
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between">
-        <div className="group relative top-1 text-2xl text-primary-color duration-300 hover:opacity-70">
+        <div className="text-2xl text-primary-color duration-300 hover:opacity-70">
           <Link href="/" className="block">
             portfolio
-            <div className="bg-accent absolute bottom-1.5 left-0 h-1 w-0 duration-300 group-hover:w-full"></div>
           </Link>
         </div>
 
@@ -33,7 +32,7 @@ export const Navbar = () => {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-x-4">
+        <div className="flex items-center gap-x-4 duration-300 hover:opacity-70">
           <ThemeSwitchButton />
         </div>
       </div>
