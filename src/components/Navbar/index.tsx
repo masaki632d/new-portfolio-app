@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ThemeSwitchButton } from '@components/ThemeSwitchButton'
 
 import { data } from './constants/data'
+import { MobileMenu } from './MobileMenu'
 
 export const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ export const Navbar = () => {
       data-layout="Navbar"
       className="mb-10 border-b border-zinc-200 p-6 text-sm md:mb-28 md:px-16 dark:border-zinc-800"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between">
+      <div className="mx-auto flex items-center justify-between">
         <div className="font-signature text-2xl capitalize text-primary-color duration-300 hover:opacity-70">
           <Link href="/" className="block">
             portfolio
@@ -32,8 +33,9 @@ export const Navbar = () => {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-x-4 duration-300 hover:opacity-70">
+        <div className="flex items-center space-x-4">
           <ThemeSwitchButton />
+          <MobileMenu />
         </div>
       </div>
     </header>
