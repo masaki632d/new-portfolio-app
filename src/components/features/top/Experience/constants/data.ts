@@ -14,7 +14,8 @@ export const data = [
       'デザインツール: Figma / Photoshop / Illustrator / XD',
     ],
     url: 'https://life-design.a-tm.co.jp/',
-    logo: '/profile.png',
+    // TODO: fix path
+    logo: '/shared/profile.png',
   },
   {
     _id: '2',
@@ -31,7 +32,7 @@ export const data = [
       'デザインツール: Photoshop / Illustrator',
     ],
     url: 'https://www.w-endless.co.jp/',
-    logo: '/profile.png',
+    logo: '/shared/profile.png',
   },
   {
     _id: '3',
@@ -48,7 +49,7 @@ export const data = [
       'デザインツール: Photoshop / Illustrator',
     ],
     url: 'https://example.com/company-b',
-    logo: '/profile.png',
+    logo: '/shared/profile.png',
   },
   {
     _id: '4',
@@ -65,6 +66,6 @@ export const data = [
       'デザインツール: Photoshop / Illustrator / Fireworks',
     ],
     url: 'https://example.com/company-b',
-    logo: '/profile.png',
+    logo: '/shared/profile.png',
   },
 ]

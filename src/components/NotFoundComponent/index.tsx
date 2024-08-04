@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import duckImage from 'public/searching-duck.gif'
+
+import duckImage from 'public/shared/searching-duck.gif'
 
 type props = {
   title: string

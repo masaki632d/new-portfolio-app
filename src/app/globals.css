@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url("../../public/noise.png");
+  background-image: url("../../public/shared/noise.png");
   background-size: 200px 200px;
   background-position: 0 0;
 }
