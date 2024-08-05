@@ -1,3 +1,5 @@
+import profile from '@public/shared/profile.png'
+
 export const data = [
   {
     _id: '1',
@@ -6,7 +8,7 @@ export const data = [
     startDate: '2019-10',
     endDate: null,
     description: [
-      '複数の金融系Webメディア（アフィリエイト - SEO / PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・ブランド構築と反映・リプレイス・保守/運用などを担当。',
+      '複数の金融系Webメディア（アフィリエイト - SEO / PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・デザインシステム導入・ブランド構築とプロダクトへの反映・CSSリプレイス・保守/運用 などを担当。',
       '仕事を通じて、Next.js・React・TypeScript・TailwindCSS・Storybook・VRTなど、さまざまな モダンフロントエンド技術を経験しました。',
       'また、デザイナー職能の中でのフロントエンド開発メンバーのリーダー担当を経験し、小規模のチームの管理・リードしました。',
       '技術スタック： Next.js / React / TypeScript / JavaScript / TailwindCSS / CSS Modules / Emotion / HTML / CSS / Sass / Storybook / VRT / Jest',
@@ -14,8 +16,7 @@ export const data = [
       'デザインツール: Figma / Photoshop / Illustrator / XD',
     ],
     url: 'https://life-design.a-tm.co.jp/',
-    // TODO: fix path
-    logo: '/shared/profile.png',
+    logo: profile,
   },
   {
     _id: '2',
@@ -32,7 +33,7 @@ export const data = [
       'デザインツール: Photoshop / Illustrator',
     ],
     url: 'https://www.w-endless.co.jp/',
-    logo: '/shared/profile.png',
+    logo: profile,
   },
   {
     _id: '3',
@@ -49,7 +50,7 @@ export const data = [
       'デザインツール: Photoshop / Illustrator',
     ],
     url: 'https://example.com/company-b',
-    logo: '/shared/profile.png',
+    logo: profile,
   },
   {
     _id: '4',
@@ -66,6 +67,6 @@ export const data = [
       'デザインツール: Photoshop / Illustrator / Fireworks',
     ],
     url: 'https://example.com/company-b',
-    logo: '/shared/profile.png',
+    logo: profile,
   },
 ]
