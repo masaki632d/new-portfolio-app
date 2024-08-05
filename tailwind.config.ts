@@ -20,6 +20,9 @@ const config: Config = {
         'primary-bg': 'rgba(39, 39, 43, 0.4)',
         'secondary-bg': 'rgba(250, 250, 250, 0.4)',
       },
+      gridTemplateColumns: {
+        custom: '1.2fr 1fr',
+      },
     },
   },
   plugins: [],

@@ -26,7 +26,8 @@ export const MobileMenu = () => {
       </button>
 
       <div
-        className={`fixed left-0 top-0 size-full space-y-6 bg-white pt-6 duration-[600ms] ease-[cubic-bezier(0.7,0,0,1)] dark:bg-zinc-900 ${
+        // z-10
+        className={`fixed left-0 top-0 z-10 size-full space-y-6 bg-white pt-6 duration-[600ms] ease-[cubic-bezier(0.7,0,0,1)] dark:bg-zinc-900 ${
           navShow ? 'translate-x-0 rounded-none' : 'translate-x-full'
         }`}
       >

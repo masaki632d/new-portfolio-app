@@ -6,10 +6,7 @@ import { data } from './constants/data'
 
 export const Hero = () => {
   return (
-    <section
-      data-layout="Hero"
-      className="flex flex-col items-start justify-between gap-x-12 xl:flex-row xl:items-center xl:justify-center"
-    >
+    <section data-layout="Hero" className="space-x-8 md:flex">
       {data.map((data) => (
         <div key={data.id} className="space-y-7">
           <Slide className="space-y-6">

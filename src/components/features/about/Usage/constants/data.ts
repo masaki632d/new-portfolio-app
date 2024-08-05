@@ -1,0 +1,16 @@
+export const data = [
+  { text: 'Next.js' },
+  { text: 'React' },
+  { text: 'TypeScript' },
+  { text: 'HTML' },
+  { text: 'CSS' },
+  { text: 'JavaScript' },
+  { text: 'Tailwind CSS' },
+  { text: 'Emotion' },
+  { text: 'Sass' },
+  { text: 'Storybook' },
+  { text: 'Jest' },
+  { text: 'Figma' },
+  { text: 'Illustrator' },
+  { text: 'Photoshop' },
+]
