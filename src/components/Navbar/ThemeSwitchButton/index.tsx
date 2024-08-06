@@ -26,10 +26,10 @@ export const ThemeSwitchButton = () => {
   return (
     <button
       data-layout="ThemeSwitchButton"
-      onClick={toggleTheme}
       className={`rounded-full border border-zinc-200 bg-zinc-100 p-2 text-zinc-500 transition-transform duration-300 hover:opacity-70 dark:border-zinc-800 dark:bg-primary-bg dark:text-primary-color ${
         currentTheme === 'light' ? '-rotate-180' : 'rotate-0'
       }`}
+      onClick={toggleTheme}
       type="button"
       aria-label="Toggle Theme"
     >

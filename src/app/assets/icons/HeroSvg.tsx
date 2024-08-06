@@ -1,7 +1,7 @@
-export default function HeroSvg() {
+export const HeroSvg = () => {
   return (
     <svg
-      className="size-full lg:w-[450px]"
+      className="w-72 lg:w-[450px]"
       viewBox="0 0 1273 906"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

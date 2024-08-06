@@ -1,4 +1,4 @@
-import HeroSvg from '@app/assets/icons/HeroSvg'
+import { HeroSvg } from '@app/assets/icons/HeroSvg'
 import { Social } from '@components/features/top/Hero/Social'
 import { Slide } from '@components/Slide'
 
@@ -35,7 +35,7 @@ export const Hero = () => {
         </div>
       ))}
 
-      <Slide delay={0.14}>
+      <Slide delay={0.14} className="">
         <HeroSvg />
       </Slide>
     </section>
