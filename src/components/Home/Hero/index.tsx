@@ -7,36 +7,37 @@ import { data } from './constants/data'
 
 export const Hero = () => {
   return (
-    <section data-layout="Hero" className="space-x-8 md:flex">
-      {data.map((data) => (
-        <div key={data.id} className="space-y-10">
-          <Slide className="space-y-6">
-            <p className="text-sm md:text-base">
-              Web Designer / Frontend Developer / Web Director
-            </p>
-            <SectionTitle type="h1">
-              {data.title.map((title, index) => (
-                <span key={index} className="block">
-                  {title}
-                </span>
-              ))}
-            </SectionTitle>
-            <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-              {data.shortText.map((text, index) => (
-                <span key={index} className="block">
-                  {text}
-                </span>
-              ))}
-            </p>
-          </Slide>
+    <section
+      data-layout="Hero"
+      className="space-y-8 md:flex md:items-center md:space-x-8"
+    >
+      <div className="space-y-10 md:w-2/3">
+        <Slide className="space-y-6">
+          <p className="text-sm md:text-base">
+            Web Designer / Frontend Developer / Web Director
+          </p>
+          <SectionTitle type="h1">
+            {data.title.map((title, index) => (
+              <span key={index} className="block">
+                {title}
+              </span>
+            ))}
+          </SectionTitle>
+          <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {data.text.map((text, index) => (
+              <span key={index} className="block">
+                {text}
+              </span>
+            ))}
+          </p>
+        </Slide>
 
-          <Slide delay={0.1}>
-            <SocialLink type="social" />
-          </Slide>
-        </div>
-      ))}
+        <Slide delay={0.1}>
+          <SocialLink type="social" />
+        </Slide>
+      </div>
 
-      <Slide delay={0.14} className="">
+      <Slide delay={0.14} className="mx-auto w-2/3 sm:w-1/3 lg:w-1/3">
         <HeroSvg />
       </Slide>
     </section>

@@ -8,7 +8,7 @@ export const Usage = () => {
       <div className="mb-8">
         <SectionTitle type="h2">Skills</SectionTitle>
         <p className="max-w-xl text-zinc-600 dark:text-zinc-400">
-          以下のスキルを活用しています。
+          以下のスキルを習得し活用しています。
         </p>
       </div>
 
