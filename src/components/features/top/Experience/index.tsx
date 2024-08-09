@@ -9,7 +9,7 @@ import { formatDate } from './functions/date'
 
 export const Experience = () => {
   return (
-    <section data-layout="Experience" id="Experience" className="mt-32">
+    <section data-layout="Experience" id="Experience">
       <Slide delay={0.16} className="mb-16">
         <SectionTitle type="h2">Experience</SectionTitle>
       </Slide>
