@@ -1,3 +1,5 @@
+import { Fragment } from 'react'
+
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -17,11 +19,8 @@ export const Experience = () => {
       <Slide delay={0.18}>
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2">
           {data.map((data) => (
-            <>
-              <div
-                key={data.id}
-                className="relative flex max-w-2xl items-start gap-x-4 before:absolute before:bottom-0 before:left-9 before:top-20 before:h-[calc(100%-70px)] before:w-px before:bg-zinc-200 dark:before:bg-zinc-800"
-              >
+            <Fragment key={data.id}>
+              <div className="relative flex max-w-2xl items-start gap-x-4 before:absolute before:bottom-0 before:left-9 before:top-20 before:h-[calc(100%-70px)] before:w-px before:bg-zinc-200 dark:before:bg-zinc-800">
                 <Link
                   href={data.url}
                   className="relative grid min-h-20 min-w-20 place-items-center text-clip rounded-md border border-zinc-200 bg-secondary-bg p-2 dark:border-zinc-800 dark:bg-primary-bg"
@@ -65,7 +64,7 @@ export const Experience = () => {
                   </li>
                 ))}
               </ul>
-            </>
+            </Fragment>
           ))}
         </div>
       </Slide>

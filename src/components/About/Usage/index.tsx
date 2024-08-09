@@ -4,7 +4,7 @@ import { data } from './constants/data'
 
 export const Usage = () => {
   return (
-    <section className="max-w-2xl">
+    <section>
       <div className="mb-8">
         <SectionTitle type="h2">Skills</SectionTitle>
         <p className="max-w-xl text-zinc-600 dark:text-zinc-400">

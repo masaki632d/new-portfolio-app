@@ -17,7 +17,9 @@ const classes = ({ type }: Pick<Props, 'type'>) => {
       `
     case 'h2':
       return `
-        font-incognito text-4xl font-bold tracking-tight
+        font-incognito text-3xl font-bold tracking-tight
+        md:text-4xl
+        lg:text-5xl
       `
     case 'h3':
       return `

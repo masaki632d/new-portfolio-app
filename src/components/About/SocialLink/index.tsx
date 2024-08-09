@@ -14,7 +14,7 @@ export const SocialLink = ({ type }: Props) => {
         .map((value) => (
           <li key={value.id}>
             <Link
-              className="flex items-center border-b border-zinc-200 dark:border-b-zinc-800"
+              className="flex items-center border-b border-zinc-200 duration-300 hover:opacity-70 dark:border-b-zinc-800"
               href={value.url}
               rel="noopener"
               target="_blank"

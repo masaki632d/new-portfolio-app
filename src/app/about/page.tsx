@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { BiEnvelope } from 'react-icons/bi'
 
 import { SocialLink } from '@components/About/SocialLink'
@@ -39,11 +40,8 @@ export default async function About() {
               </strong>
               を担当し、<strong> 事業課題の解決 </strong>に貢献しています。
             </p>
-            <p>
-              HTML / CSS / JavaScript を⽤いたWeb開発を得意としています。
-              <br />
-              滋賀在住で、趣味は釣りと⾳楽です。
-            </p>
+            <p>HTML / CSS / JavaScript を⽤いたWeb開発を得意としています。</p>
+            <p>滋賀在住で、趣味は釣りと⾳楽です。</p>
           </div>
 
           <SocialLink type="social" />
@@ -61,14 +59,14 @@ export default async function About() {
             alt=""
             priority
           />
-          <div className="">
-            <a
+          <div className="flex items-center justify-center space-x-2">
+            <BiEnvelope className="text-lg" />
+            <Link
               href="mailto:masaki632d@gmail.com"
-              className="flex items-center justify-center gap-x-2 hover:text-primary-color"
+              className="duration-300 hover:text-primary-color"
             >
-              <BiEnvelope className="text-lg" />
               masaki632d@gmail.com
-            </a>
+            </Link>
           </div>
         </Slide>
       </section>
