@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+import { Main } from '@components/shared/Main'
 import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/shared/Slide'
 import duckImage from 'public/shared/searching-duck.gif'
@@ -11,10 +12,7 @@ type props = {
 
 export const NotFoundComponent = ({ title, description }: props) => {
   return (
-    <main
-      data-layout="NotFoundComponent"
-      className="mx-auto mt-20 px-5 md:max-w-5xl"
-    >
+    <Main dataLayout="NotFoundComponent">
       <section className="mb-8 space-y-6">
         <Slide className="space-y-2">
           <SectionTitle type="h1">{title}</SectionTitle>
@@ -27,6 +25,6 @@ export const NotFoundComponent = ({ title, description }: props) => {
           <Image width={90} height={90} src={duckImage} alt="duck searching" />
         </Slide>
       </section>
-    </main>
+    </Main>
   )
 }

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { BiEnvelope } from 'react-icons/bi'
 
 import { Usage } from '@components/About/Usage'
+import { Main } from '@components/shared/Main'
 import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/shared/Slide'
 import profile from '@public/shared/profile.png'
@@ -14,10 +15,7 @@ export const metadata: Metadata = {
 
 export default async function About() {
   return (
-    <main
-      data-layout="AboutPage"
-      className="relative mx-auto max-w-3xl px-6 md:px-16 lg:max-w-7xl"
-    >
+    <Main dataLayout="AboutPage">
       <section className="relative mb-8 grid grid-cols-1 justify-items-center gap-x-6 lg:grid-cols-custom">
         <Slide className="order-2 space-y-6 lg:order-none">
           <SectionTitle type="h1">About</SectionTitle>
@@ -75,6 +73,6 @@ export default async function About() {
       <Slide delay={0.14}>
         <Usage />
       </Slide>
-    </main>
+    </Main>
   )
 }
