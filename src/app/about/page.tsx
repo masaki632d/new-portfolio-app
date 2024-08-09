@@ -2,9 +2,9 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import { BiEnvelope } from 'react-icons/bi'
 
-import { Usage } from '@components/features/about/Usage'
+import { Usage } from '@components/About/Usage'
 import { SectionTitle } from '@components/shared/SectionTitle'
-import { Slide } from '@components/Slide'
+import { Slide } from '@components/shared/Slide'
 import profile from '@public/shared/profile.png'
 
 export const metadata: Metadata = {
@@ -14,7 +14,10 @@ export const metadata: Metadata = {
 
 export default async function About() {
   return (
-    <main className="relative mx-auto max-w-3xl px-6 md:px-16 lg:max-w-7xl">
+    <main
+      data-layout="AboutPage"
+      className="relative mx-auto max-w-3xl px-6 md:px-16 lg:max-w-7xl"
+    >
       <section className="relative mb-8 grid grid-cols-1 justify-items-center gap-x-6 lg:grid-cols-custom">
         <Slide className="order-2 space-y-6 lg:order-none">
           <SectionTitle type="h1">About</SectionTitle>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { SectionTitle } from '@components/shared/SectionTitle'
-import { Slide } from '@components/Slide'
+import { Slide } from '@components/shared/Slide'
 
 import { data } from './constants/data'
 import { formatDate } from './functions/date'

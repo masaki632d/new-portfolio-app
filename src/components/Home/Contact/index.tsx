@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import { SectionTitle } from '@components/shared/SectionTitle'
-import { Slide } from '@components/Slide'
+import { Slide } from '@components/shared/Slide'
 
 export const Contact = () => {
   return (

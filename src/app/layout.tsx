@@ -1,8 +1,8 @@
 import { Inter } from 'next/font/google'
 
-import { Footer } from '@components/Footer'
-import { Navbar } from '@components/Navbar'
-import { Providers } from '@components/providers'
+import { Footer } from '@components/shared/Footer'
+import { Navbar } from '@components/shared/Navbar'
+import { Providers } from '@components/shared/Providers'
 
 import { incognito } from './assets/font/font'
 import { gitlabmono } from './assets/font/font'

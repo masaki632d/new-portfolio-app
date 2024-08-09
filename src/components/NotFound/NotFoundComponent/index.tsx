@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { SectionTitle } from '@components/shared/SectionTitle'
-import { Slide } from '@components/Slide'
+import { Slide } from '@components/shared/Slide'
 import duckImage from 'public/shared/searching-duck.gif'
 
 type props = {

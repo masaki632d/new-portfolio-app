@@ -1,7 +1,7 @@
 import { HeroSvg } from '@app/assets/icons/HeroSvg'
-import { Social } from '@components/features/top/Hero/Social'
+import { SocialLink } from '@components/Home/Hero/SocialLink'
 import { SectionTitle } from '@components/shared/SectionTitle'
-import { Slide } from '@components/Slide'
+import { Slide } from '@components/shared/Slide'
 
 import { data } from './constants/data'
 
@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <section data-layout="Hero" className="space-x-8 md:flex">
       {data.map((data) => (
-        <div key={data.id} className="space-y-7">
+        <div key={data.id} className="space-y-10">
           <Slide className="space-y-6">
             <p className="text-sm md:text-base">
               Web Designer / Frontend Developer / Web Director
@@ -31,7 +31,7 @@ export const Hero = () => {
           </Slide>
 
           <Slide delay={0.1}>
-            <Social type="social" />
+            <SocialLink type="social" />
           </Slide>
         </div>
       ))}

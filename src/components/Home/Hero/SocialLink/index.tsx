@@ -1,14 +1,14 @@
 import Link from 'next/link'
 
-import { socialLinks } from './constants/social'
+import { socialLinks } from './constants/data'
 
 type Props = {
   type: string
 }
 
-export const Social = ({ type }: Props) => {
+export const SocialLink = ({ type }: Props) => {
   return (
-    <ul data-layout="Social" className="my-10 flex items-center space-x-5">
+    <ul data-layout="SocialLink" className="flex items-center space-x-5">
       {socialLinks
         .filter((item) => item.status === type)
         .map((value) => (

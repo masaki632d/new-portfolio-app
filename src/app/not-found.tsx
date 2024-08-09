@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 
-import { NotFoundComponent } from '@components/NotFoundComponent'
+import { NotFoundComponent } from '@components/NotFound/NotFoundComponent'
 
 export const metadata: Metadata = {
   title: 'Error 404',

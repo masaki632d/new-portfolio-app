@@ -12,6 +12,7 @@ const classes = ({ type }: Pick<Props, 'type'>) => {
     case 'h1':
       return `
         text-4xl leading-tight tracking-tight
+        md:text-5xl
         lg:text-6xl
       `
     case 'h2':

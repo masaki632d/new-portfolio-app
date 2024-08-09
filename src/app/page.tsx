@@ -1,11 +1,11 @@
-import { Contact } from '@components/features/top/Contact'
-import { Experience } from '@components/features/top/Experience'
-import { Hero } from '@components/features/top/Hero'
+import { Contact } from '@components/Home/Contact'
+import { Experience } from '@components/Home/Experience'
+import { Hero } from '@components/Home/Hero'
 
 export default function Home() {
   return (
     <main
-      data-layout="Home"
+      data-layout="HomePage"
       className="mx-auto mt-20 space-y-32 px-5 md:max-w-5xl"
     >
       <Hero />
