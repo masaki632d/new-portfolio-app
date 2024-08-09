@@ -1,5 +1,4 @@
-import Link from 'next/link'
-
+import { LinkButton } from '@components/shared/LinkButton'
 import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/shared/Slide'
 
@@ -16,12 +15,7 @@ export const Contact = () => {
           <br />
           お気軽にご連絡ください。
         </p>
-        <Link
-          className="mx-auto block w-fit rounded border-2 border-primary-color p-4 px-6 font-mono text-sm capitalize text-primary-color duration-300 hover:opacity-70"
-          href="mailto:masaki632d@gmail.com"
-        >
-          send mail
-        </Link>
+        <LinkButton href="mailto:masaki632d@gmail.com">お問い合わせ</LinkButton>
       </Slide>
     </section>
   )

@@ -9,7 +9,7 @@ import { formatDate } from './functions/date'
 
 export const Experience = () => {
   return (
-    <section data-layout="Experience" id="Experience">
+    <section data-layout="Experience" id="experience">
       <Slide delay={0.16} className="mb-16">
         <SectionTitle type="h2">Experience</SectionTitle>
       </Slide>
@@ -19,7 +19,7 @@ export const Experience = () => {
           {data.map((data) => (
             <>
               <div
-                key={data._id}
+                key={data.id}
                 className="relative flex max-w-2xl items-start gap-x-4 before:absolute before:bottom-0 before:left-9 before:top-20 before:h-[calc(100%-70px)] before:w-px before:bg-zinc-200 dark:before:bg-zinc-800"
               >
                 <Link

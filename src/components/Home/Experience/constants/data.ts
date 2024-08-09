@@ -2,7 +2,7 @@ import profile from '@public/shared/profile.png'
 
 export const data = [
   {
-    _id: '1',
+    id: '1',
     name: 'Ateam-LifeDesign',
     jobTitle: 'Web Designer / Frontend Developer / Web Director',
     startDate: '2019-10',
@@ -19,7 +19,7 @@ export const data = [
     logo: profile,
   },
   {
-    _id: '2',
+    id: '2',
     name: 'W-ENDLESS',
     jobTitle: 'Web Designer / Frontend Developer / Web Director',
     startDate: '2019-01',
@@ -36,7 +36,7 @@ export const data = [
     logo: profile,
   },
   {
-    _id: '3',
+    id: '3',
     name: 'Root-Sea',
     jobTitle: 'Web Designer / Web Director',
     startDate: '2017-01',
@@ -53,7 +53,7 @@ export const data = [
     logo: profile,
   },
   {
-    _id: '4',
+    id: '4',
     name: 'Media-Made',
     jobTitle: 'Web Designer / Web Director',
     startDate: '2014-10',

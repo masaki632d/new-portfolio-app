@@ -1,5 +1,5 @@
-import { HeroSvg } from '@app/assets/icons/HeroSvg'
-import { SocialLink } from '@components/Home/Hero/SocialLink'
+import { HeroSvg } from '@components/Home/Hero/HeroSvg'
+import { LinkButton } from '@components/shared/LinkButton'
 import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/shared/Slide'
 
@@ -32,8 +32,10 @@ export const Hero = () => {
           </p>
         </Slide>
 
-        <Slide delay={0.1}>
-          <SocialLink type="social" />
+        <Slide delay={0.1} className="block">
+          <LinkButton href="#experience" left>
+            これまでの経歴
+          </LinkButton>
         </Slide>
       </div>
 

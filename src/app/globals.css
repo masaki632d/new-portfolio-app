@@ -7,9 +7,6 @@
   src: url("/fonts/Agustina-Signature.otf") format("opentype");
 }
 
-html {
-  scroll-behavior: smooth;
-}
 body {
   background-image: url("../../public/shared/noise.png");
   background-size: 200px 200px;
