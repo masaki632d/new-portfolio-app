@@ -1,0 +1,61 @@
+export const projects = [
+  {
+    id: '1',
+    title: 'イーデス(SEO)',
+    image: '/projects/project1.svg',
+    boldText: ['エイチーム'],
+    text: [
+      '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系のお役立ちメディア（SEOアフィリエイト）。',
+    ],
+    slug: 'aaa',
+  },
+  {
+    id: '2',
+    title: 'ナビナビキャッシング(SEO)',
+    slug: 'bbb',
+    image: '/projects/project3.svg',
+    text: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+  },
+  {
+    id: '3',
+    title: 'ナビナビキャッシング(PPC)',
+    slug: 'bbb',
+    image: '/projects/project4.svg',
+    text: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+  },
+  {
+    id: '4',
+    title: '資産運用ゲーム',
+    slug: 'bbb',
+    image: '/projects/project5.svg',
+    text: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+  },
+  {
+    id: '5',
+    title: 'Netflix Clone App',
+    slug: 'bbb',
+    image: '/projects/project6.svg',
+    text: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+  },
+  {
+    id: '6',
+    title: 'お金借りる？(SEO)',
+    slug: 'bbb',
+    image: '/projects/project7.svg',
+    text: '消費者金融の利用者からの口コミ、審査データを元に探せるカードローン比較サイト。',
+  },
+  {
+    id: '7',
+    title: 'JRおでかけネット',
+    slug: 'ccc',
+    image: '/projects/project8.svg',
+    text: '北陸・近畿・中国地方の大部分を営業エリアとする旅客鉄道会社のJR西日本が運営する観光情報サイト。',
+  },
+  {
+    id: '8',
+    title: '医療ワーカー',
+    slug: 'ddd',
+    image: '/projects/project9.svg',
+    text: '看護師・准看護師・助産師・保健師などを取り扱っている、看護職専門の求人・転職サイト。',
+  },
+]
