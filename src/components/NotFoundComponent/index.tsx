@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import { SectionTitle } from '@components/shared/SectionTitle'
+import { Slide } from '@components/Slide'
 import duckImage from 'public/shared/searching-duck.gif'
 
 type props = {
@@ -9,19 +11,22 @@ type props = {
 
 export const NotFoundComponent = ({ title, description }: props) => {
   return (
-    <main data-layout="NotFoundComponent" className="px-6 md:px-16">
-      <header>
-        <h1 className="mb-3 mt-6 text-3xl font-bold leading-tight tracking-tight sm:text-6xl">
-          {title}
-        </h1>
-        <p className="max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-          {description}
-        </p>
+    <main
+      data-layout="NotFoundComponent"
+      className="mx-auto mt-20 px-5 md:max-w-5xl"
+    >
+      <section className="mb-8 space-y-6">
+        <Slide className="space-y-2">
+          <SectionTitle type="h1">{title}</SectionTitle>
+          <p className="max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {description}
+          </p>
+        </Slide>
 
-        <div className="flex justify-center">
-          <Image width={80} height={80} src={duckImage} alt="duck searching" />
-        </div>
-      </header>
+        <Slide className="flex justify-center" delay={0.1}>
+          <Image width={90} height={90} src={duckImage} alt="duck searching" />
+        </Slide>
+      </section>
     </main>
   )
 }

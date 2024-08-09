@@ -10,7 +10,7 @@ export default function NotFound() {
   return (
     <NotFoundComponent
       title="Error 404"
-      description="申し訳ありません！このページは存在しません。"
+      description="このページは存在しません。"
     />
   )
 }

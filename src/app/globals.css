@@ -10,17 +10,14 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-image: url("../../public/shared/noise.png");
   background-size: 200px 200px;
   background-position: 0 0;
 }
-
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: var(--incognito), "Inter", sans-serif;
 }
 

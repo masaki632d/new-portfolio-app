@@ -1,10 +1,12 @@
+import { SectionTitle } from '@components/shared/SectionTitle'
+
 import { data } from './constants/data'
 
 export const Usage = () => {
   return (
     <section className="max-w-2xl">
       <div className="mb-8">
-        <h2 className="mb-4 text-4xl font-bold tracking-tight">Skills</h2>
+        <SectionTitle type="h2">Skills</SectionTitle>
         <p className="max-w-xl text-zinc-600 dark:text-zinc-400">
           以下のスキルを活用しています。
         </p>

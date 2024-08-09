@@ -1,5 +1,6 @@
 import { HeroSvg } from '@app/assets/icons/HeroSvg'
 import { Social } from '@components/features/top/Hero/Social'
+import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/Slide'
 
 import { data } from './constants/data'
@@ -13,13 +14,13 @@ export const Hero = () => {
             <p className="text-sm md:text-base">
               Web Designer / Frontend Developer / Web Director
             </p>
-            <h1 className="min-w-full text-4xl leading-tight tracking-tight sm:text-6xl">
-              {data.title.map((line, index) => (
+            <SectionTitle type="h1">
+              {data.title.map((title, index) => (
                 <span key={index} className="block">
-                  {line}
+                  {title}
                 </span>
               ))}
-            </h1>
+            </SectionTitle>
             <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               {data.shortText.map((text, index) => (
                 <span key={index} className="block">

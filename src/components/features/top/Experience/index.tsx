@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/Slide'
 
 import { data } from './constants/data'
@@ -9,12 +10,8 @@ import { formatDate } from './functions/date'
 export const Experience = () => {
   return (
     <section data-layout="Experience" id="Experience" className="mt-32">
-      <Slide delay={0.16}>
-        <div className="mb-16">
-          <h2 className="mb-4 font-incognito text-4xl font-bold tracking-tight">
-            Experience
-          </h2>
-        </div>
+      <Slide delay={0.16} className="mb-16">
+        <SectionTitle type="h2">Experience</SectionTitle>
       </Slide>
 
       <Slide delay={0.18}>
@@ -31,16 +28,18 @@ export const Experience = () => {
                 >
                   <Image
                     src={data.logo}
-                    className="object-cover duration-300"
+                    className="object-contain duration-300"
                     alt={`${data.name} logo`}
-                    width={50}
-                    height={50}
+                    sizes="auto"
+                    fill
+                    // width={50}
+                    // height={50}
                   />
                 </Link>
 
                 <div className="flex flex-col items-start">
                   <div className="mb-4">
-                    <h3 className="text-xl font-bold">{data.name}</h3>
+                    <SectionTitle type="h3">{data.name}</SectionTitle>
                     <p>{data.jobTitle}</p>
                     <time className="mt-2 text-sm uppercase tracking-widest text-zinc-500">
                       {formatDate(data.startDate)} -{' '}
