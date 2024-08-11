@@ -9,7 +9,7 @@ export const Main = ({ dataLayout, children }: Props) => {
   return (
     <main
       data-layout={dataLayout}
-      className="mx-auto mt-20 space-y-32 px-5 md:max-w-5xl"
+      className="mx-auto mt-20 space-y-32 px-5 md:max-w-5xl lg:px-0"
     >
       {children}
     </main>

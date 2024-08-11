@@ -1,4 +1,7 @@
-import profile from '@public/shared/profile.png'
+import logo_ateam from '@public/shared/logo_ateam.svg'
+import logo_mediamade from '@public/shared/logo_mediamade.svg'
+import logo_rootsea from '@public/shared/logo_rootsea.svg'
+import logo_wendless from '@public/shared/logo_wendless.svg'
 
 export const data = [
   {
@@ -16,7 +19,7 @@ export const data = [
       'デザインツール： Figma / Photoshop / Illustrator / XD',
     ],
     url: 'https://life-design.a-tm.co.jp/',
-    logo: profile,
+    logo: logo_ateam,
   },
   {
     id: '2',
@@ -33,7 +36,7 @@ export const data = [
       'デザインツール： Photoshop / Illustrator',
     ],
     url: 'https://www.w-endless.co.jp/',
-    logo: profile,
+    logo: logo_wendless,
   },
   {
     id: '3',
@@ -50,7 +53,7 @@ export const data = [
       'デザインツール： Photoshop / Illustrator',
     ],
     url: 'https://example.com/company-b',
-    logo: profile,
+    logo: logo_rootsea,
   },
   {
     id: '4',
@@ -67,6 +70,6 @@ export const data = [
       'デザインツール： Photoshop / Illustrator / Fireworks',
     ],
     url: 'https://example.com/company-b',
-    logo: profile,
+    logo: logo_mediamade,
   },
 ]
