@@ -10,7 +10,7 @@ export const Contact = () => {
       </Slide>
 
       <Slide delay={0.16} className="space-y-16">
-        <p className="text-sm md:text-base">
+        <p className="leading-relaxed">
           現在、リモートワーク主体での仕事や新しい機会を探しています。
           <br />
           お気軽にご連絡ください。

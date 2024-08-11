@@ -26,7 +26,6 @@ export default async function About() {
           <Slide className="order-2 space-y-6 lg:order-none">
             <SectionTitle type="h1">About</SectionTitle>
           </Slide>
-
           <Slide delay={0.1} className="space-y-8">
             <div className="space-y-4">
               {data.text.map((text) => (
@@ -35,7 +34,6 @@ export default async function About() {
                 </p>
               ))}
             </div>
-
             <SocialLink type="social" />
           </Slide>
         </div>
