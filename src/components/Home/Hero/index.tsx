@@ -1,3 +1,5 @@
+import parse from 'html-react-parser'
+
 import { HeroSvg } from '@components/Home/Hero/HeroSvg'
 import { LinkButton } from '@components/shared/LinkButton'
 import { SectionTitle } from '@components/shared/SectionTitle'
@@ -17,16 +19,16 @@ export const Hero = () => {
             Web Designer / Frontend Developer / Web Director
           </p>
           <SectionTitle type="h1">
-            {data.title.map((title, index) => (
-              <span key={index} className="block">
+            {data.title.map((title) => (
+              <span key={title} className="block">
                 {title}
               </span>
             ))}
           </SectionTitle>
-          <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
-            {data.text.map((text, index) => (
-              <span key={index} className="block">
-                {text}
+          <p className="leading-relaxed">
+            {data.text.map((text) => (
+              <span key={text} className="block">
+                {parse(text)}
               </span>
             ))}
           </p>

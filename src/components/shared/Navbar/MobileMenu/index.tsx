@@ -36,7 +36,7 @@ export const MobileMenu = () => {
         <div className="flex items-center justify-between px-8">
           <Link
             href="/"
-            className="font-signature text-2xl capitalize text-primary-color"
+            className="font-signature text-2xl capitalize text-tertiary-color dark:text-primary-color"
             onClick={toggleNav}
           >
             portfolio

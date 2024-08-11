@@ -12,7 +12,7 @@ export const Navbar = () => {
       className="mb-10 border-b border-zinc-200 p-6 text-sm md:mb-28 md:px-16 dark:border-zinc-800"
     >
       <div className="mx-auto flex max-w-5xl items-center justify-between">
-        <div className="font-signature text-2xl capitalize text-primary-color duration-300 hover:opacity-70">
+        <div className="font-signature text-2xl capitalize text-tertiary-color duration-300 hover:opacity-70 dark:text-primary-color">
           <Link href="/" className="block">
             portfolio
           </Link>

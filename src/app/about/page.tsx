@@ -1,3 +1,4 @@
+import parse from 'html-react-parser'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -9,6 +10,8 @@ import { Main } from '@components/shared/Main'
 import { SectionTitle } from '@components/shared/SectionTitle'
 import { Slide } from '@components/shared/Slide'
 import profile from '@public/shared/profile.png'
+
+import { data } from './constants/data'
 
 export const metadata: Metadata = {
   title: 'About | Masahiro Koumura',
@@ -22,26 +25,12 @@ export default async function About() {
         <Slide className="order-2 space-y-6 lg:order-none">
           <SectionTitle type="h1">About</SectionTitle>
 
-          <div className="space-y-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-            <p>
-              <strong> 医療系求⼈サイト運営会社 </strong>/
-              <strong> ⼤⼿鉄道専任の制作会社 </strong>/
-              <strong> Webメディア運営会社 </strong>の3社をこれまで経験。
-            </p>
-            <p>
-              現在は、<strong> 金融系の⾃社Webメディア運営会社 </strong> である
-              エイチームライフザイン社 に、 <strong> Webデザイナー </strong>
-              として在籍。（デザインエンジニア / Front-Endデザイナー）
-            </p>
-            <p>
-              現職では、 Designer組織 の中で、
-              <strong>
-                新規コンテンツのフロントエンド開発・UI/UX・A11Y・CVR改善・リプレイス・デザインシステム運用・サイト保守/運用など{' '}
-              </strong>
-              を担当し、<strong> 事業課題の解決 </strong>に貢献しています。
-            </p>
-            <p>HTML / CSS / JavaScript を⽤いたWeb開発を得意としています。</p>
-            <p>滋賀在住で、趣味は釣りと⾳楽です。</p>
+          <div className="space-y-4">
+            {data.text.map((text) => (
+              <p key={text} className="leading-relaxed">
+                {parse(text)}
+              </p>
+            ))}
           </div>
 
           <SocialLink type="social" />
