@@ -22,22 +22,26 @@ export default async function About() {
   return (
     <Main dataLayout="AboutPage">
       <section className="mb-8 grid grid-cols-1 justify-items-center gap-x-6 lg:grid-cols-custom">
-        <Slide className="order-2 space-y-6 lg:order-none">
-          <SectionTitle type="h1">About</SectionTitle>
+        <div className="space-y-8">
+          <Slide className="order-2 space-y-6 lg:order-none">
+            <SectionTitle type="h1">About</SectionTitle>
+          </Slide>
 
-          <div className="space-y-4">
-            {data.text.map((text) => (
-              <p key={text} className="leading-relaxed">
-                {parse(text)}
-              </p>
-            ))}
-          </div>
+          <Slide delay={0.1} className="space-y-8">
+            <div className="space-y-4">
+              {data.text.map((text) => (
+                <p key={text} className="leading-relaxed">
+                  {parse(text)}
+                </p>
+              ))}
+            </div>
 
-          <SocialLink type="social" />
-        </Slide>
+            <SocialLink type="social" />
+          </Slide>
+        </div>
 
         <Slide
-          delay={0.1}
+          delay={0.14}
           className="order-none mx-auto mb-12 w-full gap-y-8 space-y-4 lg:order-1"
         >
           <Image

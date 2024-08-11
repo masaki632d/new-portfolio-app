@@ -5,10 +5,10 @@ import { data } from './constants/data'
 export const Usage = () => {
   return (
     <section>
-      <div className="mb-8">
+      <div className="space-y-6">
         <SectionTitle type="h2">Skills</SectionTitle>
         <p className="max-w-xl text-zinc-600 dark:text-zinc-400">
-          以下のスキルを習得し活用しています。
+          プロジェクトにおいて、以下のスキルを活用しています。
         </p>
       </div>
 

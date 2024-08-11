@@ -15,9 +15,8 @@ export const Hero = () => {
     >
       <div className="space-y-10 md:w-2/3">
         <Slide className="space-y-6">
-          <p className="text-sm md:text-base">
-            Web Designer / Frontend Developer / Web Director
-          </p>
+          <p className="text-sm md:text-base">{data.line}</p>
+
           <SectionTitle type="h1">
             {data.title.map((title) => (
               <span key={title} className="block">
@@ -25,6 +24,7 @@ export const Hero = () => {
               </span>
             ))}
           </SectionTitle>
+
           <p className="leading-relaxed">
             {data.text.map((text) => (
               <span key={text} className="block">
@@ -34,9 +34,9 @@ export const Hero = () => {
           </p>
         </Slide>
 
-        <Slide delay={0.1} className="block">
+        <Slide delay={0.1}>
           <LinkButton href="#experience" left>
-            これまでの経歴
+            {data.buttonText}
           </LinkButton>
         </Slide>
       </div>
