@@ -6,5 +6,6 @@ export const data = {
     '<b>「これまでの幅広い経験に基づく総合力」</b>が私の強みです。',
     '<b>「デザインとエンジニアリングが重なるところ」</b>に興味を持っています。',
   ],
-  buttonText: 'これまでの経歴',
+  buttonFirstText: '自己紹介',
+  // buttonSecondText: 'これまでの経歴',
 }

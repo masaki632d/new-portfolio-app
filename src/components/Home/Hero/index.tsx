@@ -34,10 +34,13 @@ export const Hero = () => {
           </p>
         </Slide>
 
-        <Slide delay={0.1}>
-          <LinkButton href="#experience" left>
-            {data.buttonText}
+        <Slide delay={0.1} className="flex space-x-6">
+          <LinkButton href="about" left>
+            {data.buttonFirstText}
           </LinkButton>
+          {/* <LinkButton href="#experience" left>
+            {data.buttonSecondText}
+          </LinkButton> */}
         </Slide>
       </div>
 
