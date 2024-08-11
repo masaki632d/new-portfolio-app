@@ -1,5 +1,3 @@
-import { Fragment } from 'react'
-
 import parse from 'html-react-parser'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -18,11 +16,11 @@ export const Experience = () => {
       </Slide>
 
       <Slide delay={0.1}>
-        <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2">
+        <div className="space-y-12">
           {data.map((data) => {
             const { id, url, logo, name, jobTitle, startDate, endDate } = data
             return (
-              <Fragment key={id}>
+              <div key={id} className="grid grid-cols-1 gap-y-6 lg:grid-cols-2">
                 <div className="relative flex max-w-2xl items-start gap-x-4 before:absolute before:bottom-0 before:left-9 before:top-20 before:h-[calc(100%-70px)] before:w-px before:bg-zinc-200 dark:before:bg-zinc-800">
                   <Link
                     href={url}
@@ -35,22 +33,19 @@ export const Experience = () => {
                       fill
                     />
                   </Link>
-
                   <div className="flex flex-col items-start">
-                    <div className="mb-4">
-                      <SectionTitle type="h3">{name}</SectionTitle>
-                      <p>{jobTitle}</p>
-                      <time className="mt-2 text-sm uppercase tracking-widest text-zinc-500">
-                        {formatDate(startDate)} -{' '}
-                        {endDate ? (
-                          formatDate(endDate)
-                        ) : (
-                          <span className="text-tertiary-color dark:text-primary-color">
-                            在籍中
-                          </span>
-                        )}
-                      </time>
-                    </div>
+                    <SectionTitle type="h3">{name}</SectionTitle>
+                    <p>{jobTitle}</p>
+                    <time className="mt-2 text-sm uppercase tracking-widest text-zinc-500">
+                      {formatDate(startDate)} -{' '}
+                      {endDate ? (
+                        formatDate(endDate)
+                      ) : (
+                        <span className="text-tertiary-color dark:text-primary-color">
+                          在籍中
+                        </span>
+                      )}
+                    </time>
                   </div>
                 </div>
 
@@ -66,7 +61,7 @@ export const Experience = () => {
                     </li>
                   ))}
                 </ul>
-              </Fragment>
+              </div>
             )
           })}
         </div>
