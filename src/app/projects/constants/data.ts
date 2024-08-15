@@ -1,16 +1,16 @@
 export const projects = [
   {
-    id: '1',
+    id: 1,
     title: 'イーデス(SEO)',
-    image: '/projects/project1.svg',
     slug: 'edesu',
+    image: '/projects/project1.svg',
     text: [
       '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系商材の比較・情報メディア（SEOアフィリエイト）。',
     ],
     name: 'Ateam-LifeDesign',
   },
   {
-    id: '2',
+    id: 2,
     title: 'ナビナビキャッシング(SEO)',
     slug: 'navinavi-seo',
     image: '/projects/project3.svg',
@@ -18,7 +18,7 @@ export const projects = [
     name: 'Ateam-LifeDesign',
   },
   {
-    id: '3',
+    id: 3,
     title: 'ナビナビキャッシング(PPC)',
     slug: 'navinavi-ppc',
     image: '/projects/project4.svg',
@@ -26,7 +26,7 @@ export const projects = [
     name: 'Ateam-LifeDesign',
   },
   {
-    id: '5',
+    id: 5,
     title: 'Netflix Clone App',
     slug: 'netflix-app',
     image: '/projects/project6.svg',
@@ -34,7 +34,7 @@ export const projects = [
     name: 'Personal development',
   },
   {
-    id: '6',
+    id: 6,
     title: 'お金借りる？(SEO)',
     slug: 'karireru',
     image: '/projects/project7.svg',
@@ -42,7 +42,7 @@ export const projects = [
     name: 'W-ENDLESS',
   },
   {
-    id: '7',
+    id: 7,
     title: 'JRおでかけネット',
     slug: 'odekake-net',
     image: '/projects/project8.svg',
@@ -50,7 +50,7 @@ export const projects = [
     name: 'Root-Sea',
   },
   {
-    id: '8',
+    id: 8,
     title: '医療ワーカー',
     slug: 'iryo-worker',
     image: '/projects/project9.svg',

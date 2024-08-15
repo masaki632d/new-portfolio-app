@@ -4,6 +4,7 @@ import { NotFoundComponent } from '@components/NotFound/NotFoundComponent'
 
 export const metadata: Metadata = {
   title: 'Error 404',
+  description: 'このページは存在しません。',
 }
 
 export default function NotFound() {
