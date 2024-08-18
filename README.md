@@ -35,21 +35,21 @@
 #### ライブラリ の インストール
 
 ```bash
-npm run dev
+npm i
 ```
 
 #### 開発サーバ の 起動
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 #### ブラウザ で 表示確認
 
-URL： [localhost:3000](localhost:3000)
+- [localhost:3000](localhost:3000)
 
 #### フォーマット
 
 ```bash
-yarn format
+npm run format
 ```
