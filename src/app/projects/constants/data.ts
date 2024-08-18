@@ -4,9 +4,7 @@ export const projects = [
     title: 'イーデス(SEO)',
     slug: 'edesu',
     image: '/projects/project1.svg',
-    text: [
-      '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系商材の比較・情報メディア（SEOアフィリエイト）。',
-    ],
+    text: '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系商材の比較・情報メディア（SEOアフィリエイト）。',
     name: 'Ateam-LifeDesign',
   },
   {

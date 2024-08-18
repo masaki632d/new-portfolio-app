@@ -1,6 +1,6 @@
 # Portfolio App
 
-## 作成したアプリケーション
+## Portfolio URL
 
 - [https://new-portfolio-app-mu.vercel.app/](https://new-portfolio-app-mu.vercel.app/)
 
@@ -46,7 +46,7 @@ npm run dev
 
 #### ブラウザ で 表示確認
 
-- - [http://localhost:3000](http://localhost:3000)
+- [http://localhost:3000](http://localhost:3000)
 
 #### フォーマット
 
