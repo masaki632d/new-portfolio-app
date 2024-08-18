@@ -15,8 +15,7 @@ export const Usage = () => {
 
       <div className="space-y-16">
         <ul className="mt-8 flex flex-wrap items-center gap-3">
-          {data.map((data) => {
-            const { text } = data
+          {data.map(({ text }) => {
             return (
               <li
                 key={text}

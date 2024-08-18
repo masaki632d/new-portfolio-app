@@ -1,4 +1,4 @@
-# Portfolio App！
+# Portfolio App
 
 ## 作成したアプリケーション
 
@@ -14,7 +14,7 @@
 | UI Library                | React              |
 | Programming Language      | TypeScript         |
 | Styling                   | Tailwind CSS       |
-| Theming                   | next-themes        |
+| Theming（dark mode）      | next-themes        |
 | Animation                 | framer-motion      |
 | Icons                     | react-icons        |
 | Code Quality              | ESLint, Prettier   |
@@ -46,7 +46,7 @@ npm run dev
 
 #### ブラウザ で 表示確認
 
-- [localhost:3000](localhost:3000)
+- - [http://localhost:3000](http://localhost:3000)
 
 #### フォーマット
 
