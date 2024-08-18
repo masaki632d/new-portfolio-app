@@ -26,15 +26,7 @@ export const projects = [
     name: 'Ateam-LifeDesign',
   },
   {
-    id: 5,
-    title: 'Netflix Clone App',
-    slug: 'netflix-app',
-    image: '/projects/project6.svg',
-    text: 'React・TypeScriptの基礎 や、外部API（TMDb API）を利用したWebサービス開発 のアウトプットを目的として、Netflixクローンアプリを制作。',
-    name: 'Personal development',
-  },
-  {
-    id: 6,
+    id: 4,
     title: 'お金借りる？(SEO)',
     slug: 'karireru',
     image: '/projects/project7.svg',
@@ -42,7 +34,7 @@ export const projects = [
     name: 'W-ENDLESS',
   },
   {
-    id: 7,
+    id: 5,
     title: 'JRおでかけネット',
     slug: 'odekake-net',
     image: '/projects/project8.svg',
@@ -50,7 +42,7 @@ export const projects = [
     name: 'Root-Sea',
   },
   {
-    id: 8,
+    id: 6,
     title: '医療ワーカー',
     slug: 'iryo-worker',
     image: '/projects/project9.svg',

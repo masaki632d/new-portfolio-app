@@ -12,8 +12,8 @@ import { projectsData } from './constants/data'
 type ProjectData = {
   id: number
   title: string
-  image: string
   slug: string
+  image: string
   text: string
   projectUrl: string
 }
