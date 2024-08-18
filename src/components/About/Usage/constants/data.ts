@@ -9,8 +9,12 @@ export const data = [
   { text: 'Emotion' },
   { text: 'Sass' },
   { text: 'Storybook' },
+  { text: 'VRT (UI Test)' },
   { text: 'Jest' },
   { text: 'Figma' },
   { text: 'Illustrator' },
   { text: 'Photoshop' },
+  { text: 'LPO' },
+  { text: 'CRO' },
+  { text: 'SEO' },
 ]
