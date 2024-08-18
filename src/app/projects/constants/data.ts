@@ -4,7 +4,7 @@ export const projects = [
     title: 'イーデス(SEO)',
     slug: 'edesu',
     image: '/projects/edesu.png',
-    text: '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系商材の比較・情報メディア（SEOアフィリエイト）。',
+    text: '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系商材の比較・情報メディア',
     name: 'Ateam-LifeDesign',
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     title: 'ナビナビキャッシング(SEO)',
     slug: 'navinavi-seo',
     image: '/projects/navinavi_seo.png',
-    text: '「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとしたナビナビブランド内の、キャッシング比較・情報メディア（SEOアフィリエイト）。',
+    text: '『将来のお金の不安を解消するための金融知識・情報を提供する』をメッセージとした、ナビナビブランド内の、キャッシング比較・情報メディア',
     name: 'Ateam-LifeDesign',
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     title: 'ナビナビキャッシング(PPC)',
     slug: 'navinavi-ppc',
     image: '/projects/navinavi_ppc.png',
-    text: '「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとしたナビナビブランド内の、キャッシング比較サイト（PPCアフィリエイト）。',
+    text: '『将来のお金の不安を解消するための金融知識・情報を提供する』をメッセージとした、ナビナビブランド内の、キャッシング比較サイト',
     name: 'Ateam-LifeDesign',
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     title: 'お金借りる？(SEO)',
     slug: 'karireru',
     image: '/projects/okane_kariru.png',
-    text: '消費者金融の利用者からの口コミ・審査データを元に、最適な商品を探せるカードローン比較メディア（SEOアフィリエイト）。',
+    text: '消費者金融の利用者からの口コミ・審査データを元に、最適な商品を探せるカードローン比較メディア',
     name: 'W-ENDLESS',
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     title: 'JRおでかけネット',
     slug: 'odekake-net',
     image: '/projects/odekake_net.png',
-    text: '北陸・近畿・中国地方の大部分を営業エリアとする旅客鉄道会社「JR西日本」が運営する観光情報サイト。',
+    text: '北陸・近畿・中国地方の大部分を営業エリアとする旅客鉄道会社「JR西日本」が運営する観光情報サイト',
     name: 'Root-Sea',
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     title: '医療ワーカー',
     slug: 'iryo-worker',
     image: '/projects/iryo_worker.png',
-    text: '看護師・准看護師・助産師・保健師などを取り扱っている、「医療・看護職」を専門とした求人・転職サイト。',
+    text: '看護師・准看護師・助産師・保健師などを取り扱っている、「医療・看護職」を専門とした求人・転職サイト',
     name: 'Media-Made',
   },
 ]
