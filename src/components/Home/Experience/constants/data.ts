@@ -5,7 +5,7 @@ import logo_wendless from '@public/shared/logo_wendless.svg'
 
 export const data = [
   {
-    id: '1',
+    id: 1,
     name: 'Ateam-LifeDesign',
     jobTitle: 'Web Designer / Frontend Developer / Web Director',
     startDate: '2019-10',
@@ -21,7 +21,7 @@ export const data = [
     logo: logo_ateam,
   },
   {
-    id: '2',
+    id: 2,
     name: 'W-ENDLESS',
     jobTitle: 'Web Designer / Frontend Developer / Web Director',
     startDate: '2019-01',
@@ -37,7 +37,7 @@ export const data = [
     logo: logo_wendless,
   },
   {
-    id: '3',
+    id: 3,
     name: 'Root-Sea',
     jobTitle: 'Web Designer / Web Director',
     startDate: '2017-01',
@@ -53,7 +53,7 @@ export const data = [
     logo: logo_rootsea,
   },
   {
-    id: '4',
+    id: 4,
     name: 'Media-Made',
     jobTitle: 'Web Designer / Corder / Web Director',
     startDate: '2014-10',
