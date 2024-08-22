@@ -8,7 +8,7 @@ export type ProjectDataProps = {
   projectUrl: string
   overviewText: string[]
   technologyText: string[]
-  mainProblemText: string[]
-  projectText: string[]
+  problemText: string[]
+  mainProjectText: string[]
   keyExperienceText: string[]
 }

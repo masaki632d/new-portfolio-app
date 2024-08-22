@@ -1,8 +1,8 @@
 export const SECTION_TITLES = {
   OVERVIEW: 'OverView',
   TECHNOLOGY: 'Technology',
-  MAIN_PROBLEM: 'Main Problem',
-  PROJECT: 'Project',
+  PROBLEM: 'Problem',
+  MAIN_PROJECT: ' Main Project',
   KEY_EXPERIENCE: 'Key Experience',
 } as const
 
@@ -18,8 +18,8 @@ export const projectsData = [
       '『暮らしの「まよい」を「よかった」に。』を理念メッセージとして、複数の金融系Webメディア（アフィリエイト - SEO/PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・ブランド構築と反映・リプレイス・保守/運用などを担当してきました。',
     ],
     technologyText: ['xxx'],
-    mainProblemText: ['xxx'],
-    projectText: ['xxx'],
+    problemText: ['xxx'],
+    mainProjectText: ['xxx'],
     keyExperienceText: ['xxx'],
   },
   {
@@ -33,8 +33,8 @@ export const projectsData = [
       '「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとしたナビナビブランド内の、キャッシング比較・情報メディア（SEOアフィリエイト）。',
     ],
     technologyText: ['xxx'],
-    mainProblemText: ['xxx'],
-    projectText: ['xxx'],
+    problemText: ['xxx'],
+    mainProjectText: ['xxx'],
     keyExperienceText: ['xxx'],
   },
   {
@@ -48,9 +48,9 @@ export const projectsData = [
       '「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとしたナビナビブランド内の、キャッシング比較サイト（PPCアフィリエイト）。',
     ],
     technologyText: ['xxx'],
-    mainProblemText: ['xxx'],
-    projectText: ['xxx'],
-    keyExperienceText: ['xxx'],
+    problemText: ['xxx'],
+    mainProjectText: ['xxx'],
+    keyExperienceText: [],
   },
   {
     id: 4,
@@ -60,12 +60,28 @@ export const projectsData = [
     name: 'W-ENDLESS',
     projectUrl: 'https://www.karireru.com/',
     overviewText: [
-      '消費者金融の利用者からの口コミ・審査データを元に、最適な商品を探せるカードローン比較メディア（SEOアフィリエイト）。',
+      'W-ENDLESS社 で運営していた、消費者金融の利用者 からの口コミ・審査データを元に、最適な商品を探せるカードローン比較メディア。<br/>月間PV（ページの閲覧数）：約20万回規模の、SEOアフィリエイトサイト',
+      'メディア課 の Webデザイナー として所属。<br/>Webデザイナー / フロントエンドエンジニア / Webディレクターとして、Webサイト制作全般を担当しました。<br/>具体的には、Performance改善・コーディング実装・UI/UX・CVR/SEO改善 を担当。<br/>その他、社内 / 外注ディレクション・企画（施策）など。',
     ],
-    technologyText: ['xxx'],
-    mainProblemText: ['xxx'],
-    projectText: ['xxx'],
-    keyExperienceText: ['xxx'],
+    technologyText: [
+      'Wordpress / PHP / SQL / jQuery / HTML / CSS / Sass / JavaScript / Git / AWS S3 / Google Analytics / Google Search Console / Ahrefs',
+      'Photoshop / Illustrator',
+    ],
+    problemText: [
+      'ページ表示速度の改善',
+      'Google検索順位向上',
+      'コンテンツ・導線の改善',
+    ],
+    mainProjectText: [
+      '<b>ページ表示速度の改善</b><br/>カードローン商材 の SEO比較メディアとして、Google検索での表示順位 が CVR/売上 に直結するため、最優先課題 として ページ速度の改善 が必要でした。<br/>Webサイトの権利譲渡後にサイト内を分析したところ、Wordpress や PHP のバージョン が古すぎることによるページ表示速度の大幅な低下 が見られたため、当時の最新バージョンにバージョンアップするための改善を行いました。<br/>（調査 / Wordpressプラグインの見直し / PHPの記述方法改善 / J-Stream社 の CDN（Content Delivery Network）サービス導入 / さくらサーバー から AWS へのインフラ環境移行準備（外部パートナーと連携）など）<br/>上記の施策を行い、トップページについては、表示完了に 約8s かかっていたものの、約1s に短縮することに成功。',
+      '<b>Google検索順位向上のための、コンテンツ・導線の改善</b><br/>「カードローン 口コミ」という検索キーワードでGoogle順位を狙うはずが、「カードローン 審査」などのキーワードも取りに行こうとして結果的に検索順位が下がっていると予測し、不要なページやコンテンツの削除（noindex）、Mieruca等のツールを用いたページの構成順序の変更などを行い、狙ったキーワードの検索順位向上に貢献しました。',
+      '<b>その他、保守/運用タスク</b>',
+    ],
+    keyExperienceText: [
+      '内部SEOを意識した、Googleとユーザーから評価されるWebサイト制作',
+      'HTML5/CSS3を用いたセマンティックなコーディング',
+      '外部パートナーとの連携',
+    ],
   },
   {
     id: 5,
@@ -75,22 +91,18 @@ export const projectsData = [
     name: 'Root-Sea',
     projectUrl: 'https://www.jr-odekake.net/',
     overviewText: [
-      'Root-Sea社が運営していた、旅客鉄道会社の観光情報サイトの「JRおでかけネット」。<br/>北陸・近畿・中国地方の大部分を営業エリアとするJR西日本の、それぞれの地域の観光情報や列車時間などの情報を提供するポータルサイト。',
+      'Root-Sea社 で運営していた、旅客鉄道会社の観光情報サイトの「JRおでかけネット」。<br/>北陸・近畿・中国地方の大部分を営業エリアとするJR西日本の、それぞれの地域の観光情報や列車時間などの情報を提供するポータルサイト。',
       'Web事業部 の Webデザイナー として所属。<br/>PV数の獲得・改善 を目的とし、毎月のキャンペーン施策を元に、新規コンテンツ制作、Webサイト制作・保守運用（デザインからコーディングまで）、メルマガ制作 などを一貫して担当しました。<br/>また、クライアント案件として、新規のWebサイト制作なども担当。',
     ],
     technologyText: [
-      'Wordpress / jQuery / Git / Gulp / HTML / CSS / Sass / JavaScript',
+      'Wordpress / PHP / jQuery / Git / Gulp / HTML / CSS / Sass / JavaScript',
       'Photoshop / Illustrator',
     ],
-    mainProblemText: [
-      'ポータルサイトのPV数の獲得・改善',
-      '新規クライアントの利益向上を目的とした新規Webサイト制作',
-    ],
-    projectText: [
-      'キャンペーン施策に基づく、新規コンテンツ制作',
-      'レギュレーションに沿った大手鉄道会社のポータルサイト制作・更新業務',
-      'メルマガ運用',
-      '新規クライアントのWebサイト制作',
+    problemText: ['ポータルサイトのPV数向上', '新規クライアントの利益向上'],
+    mainProjectText: [
+      '<b>キャンペーン施策に基づく、新規コンテンツ制作</b>',
+      '<b>新規クライアントのWebサイト制作</b>',
+      '<b>その他、保守/運用タスク</b><br>レギュレーションに沿った、ポータルサイト制作・更新業務・メルマガ運用など',
     ],
     keyExperienceText: [
       '大手クライアント特有のデザイン・コーディングルールを考慮しながらの、大規模サイトの改修・新規コンテンツ制作',
@@ -107,24 +119,20 @@ export const projectsData = [
     slug: 'iryo-worker',
     image: '/projects/iryo_worker.png',
     name: 'Media-Made',
-    projectUrl: 'http://iryouworker.com/',
+    projectUrl: 'https://iryouworker.com/search/',
     overviewText: [
-      'Media-Made社が運営していた、「医療・看護職」を専門とした求人・転職サイト。<br/>求職者 と 求人企業 をマッチングさせるためのオンラインプラットフォームであり、看護師・准看護師・助産師・保健師など をメインに取り扱う（※現在は「看護師ワーカー」に名称変更されている様子）。',
-      'Web事業部 の Webデザイナー として所属。<br/>営業や求職者からの要望を元に、サイト改善施策をディレクターやプログラマーと打ち合わせし、CVR改善の目的で施策の遂行（デザインからコーディングまで）を一貫して担当しました。<br/>また、施策によってはディレクターとして社内ディレクションを担当。',
+      'Media-Made社 で運営していた、「医療・看護職」を専門とした求人情報・転職サイト。<br/>求職者 と 求人企業 をマッチングさせるためのオンラインプラットフォームであり、看護師・准看護師・助産師・保健師など をメインに取り扱っている。<br/>（※現在は「看護師ワーカー」に名称変更されている様子）',
+      'Web事業部 の Webデザイナー として所属。<br/>会員登録数の改善の目的で、求職者や営業からの要望を元に、サイト改善施策をディレクターやプログラマーと打ち合わせし、施策の遂行（デザインからコーディングまで）を一貫して担当しました。<br/>また、施策によってはWebディレクターとして社内ディレクションを担当。',
     ],
     technologyText: [
       'Wordpress / CakePHP / jQuery /  HTML / CSS / Sass / JavaScript / Git / Subversion',
       'Photoshop / Illustrator / Fireworks',
     ],
-    mainProblemText: [
-      'サイトのCVR改善',
-      'UXの向上',
-      '自社コーポレートサイトの制作',
-    ],
-    projectText: [
-      '課題の改善を目的として、サイトの改善施策（ページ内の動線改善、見辛いコンテンツのUI/UX改善 や 画像の最適化など）を担当。',
-      '自社の社員採用を目的とした採用サイトを、Wordpressで一貫して制作（※現在はサイト閉鎖）。',
-      'その他、サイトの保守・運用業務など',
+    problemText: ['サイトの会員登録数の改善', '自社の人材採用'],
+    mainProjectText: [
+      '<b>コンテンツ・導線の改善</b><br>課題の改善を目的として、サイトの改善施策（ページ内の動線改善、見辛いコンテンツのUI/UX改善 や 画像の最適化など）を担当。',
+      '<b>採用サイト制作</b><br>自社の社員採用を目的とした採用サイトを、Wordpressで一貫して制作（※現在はサイト閉鎖）。',
+      '<b>その他、保守/運用タスク</b><br>サイトの新規コンテンツ制作。その他、サイトの保守・運用業務など',
     ],
     keyExperienceText: [
       '社会人・Webデザイナーとしての基礎',

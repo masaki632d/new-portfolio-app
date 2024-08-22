@@ -28,16 +28,16 @@ const ProjectPage = ({ params }: { params: { project: string } }) => {
     image,
     overviewText,
     technologyText,
-    mainProblemText,
-    projectText,
+    problemText,
+    mainProjectText,
     keyExperienceText,
   } = projectData
 
   const sections = [
     { title: SECTION_TITLES.OVERVIEW, content: overviewText },
     { title: SECTION_TITLES.TECHNOLOGY, content: technologyText },
-    { title: SECTION_TITLES.MAIN_PROBLEM, content: mainProblemText },
-    { title: SECTION_TITLES.PROJECT, content: projectText },
+    { title: SECTION_TITLES.PROBLEM, content: problemText },
+    { title: SECTION_TITLES.MAIN_PROJECT, content: mainProjectText },
     { title: SECTION_TITLES.KEY_EXPERIENCE, content: keyExperienceText },
   ]
 
