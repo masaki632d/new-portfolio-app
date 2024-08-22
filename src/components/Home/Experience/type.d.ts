@@ -1,7 +1,7 @@
 export type ExperienceItemProps = {
   id: number
   url: string
-  logo: string
+  logo: StaticImageData
   name: string
   jobTitle: string
   startDate: string
