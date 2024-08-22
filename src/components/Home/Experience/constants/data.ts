@@ -1,7 +1,7 @@
-import logo_ateam from '@public/shared/logo_ateam.svg'
-import logo_mediamade from '@public/shared/logo_mediamade.svg'
-import logo_rootsea from '@public/shared/logo_rootsea.svg'
-import logo_wendless from '@public/shared/logo_wendless.svg'
+import logo_ateam from '@public/shared/logo_ateam.png'
+import logo_mediamade from '@public/shared/logo_mediamade.png'
+import logo_rootsea from '@public/shared/logo_rootsea.png'
+import logo_wendless from '@public/shared/logo_wendless.png'
 
 export const data = [
   {
