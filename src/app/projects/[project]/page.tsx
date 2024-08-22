@@ -63,7 +63,7 @@ const ProjectPage = ({ params }: { params: { project: string } }) => {
               fill
               src={image}
               alt=""
-              priority
+              priority={true}
             />
           </div>
         </Slide>

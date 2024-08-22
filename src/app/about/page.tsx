@@ -22,7 +22,7 @@ export default async function About() {
   return (
     <Main dataLayout="AboutPage">
       <section className="mb-8 grid grid-cols-1 justify-items-center gap-x-6 lg:grid-cols-custom">
-        <div className="space-y-8">
+        <div className="mb-12 space-y-8">
           <Slide className="order-2 space-y-6 lg:order-none">
             <SectionTitle type="h1">About</SectionTitle>
           </Slide>
@@ -40,7 +40,7 @@ export default async function About() {
 
         <Slide
           delay={0.14}
-          className="order-none mx-auto mb-12 w-full gap-y-8 space-y-4 lg:order-1"
+          className="order-none mx-auto w-full gap-y-8 space-y-4 lg:order-1"
         >
           <Image
             className="mx-auto size-40 rounded-2xl bg-top object-cover md:size-96"

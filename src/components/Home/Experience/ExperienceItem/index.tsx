@@ -8,7 +8,6 @@ import { formatDate } from '../functions/date'
 import { ExperienceItemProps } from '../type'
 
 export const ExperienceItem = ({
-  id,
   url,
   logo,
   name,
@@ -19,7 +18,6 @@ export const ExperienceItem = ({
 }: ExperienceItemProps) => (
   <div
     data-layout="ExperienceItem"
-    key={id}
     className="grid grid-cols-1 gap-y-6 lg:grid-cols-2"
   >
     <div className="relative flex max-w-2xl items-start gap-x-4 before:absolute before:bottom-0 before:left-9 before:top-20 before:h-[calc(100%-70px)] before:w-px before:bg-zinc-200 dark:before:bg-zinc-800">
@@ -27,12 +25,7 @@ export const ExperienceItem = ({
         href={url}
         className="relative grid min-h-20 min-w-20 place-items-center text-clip rounded-md border border-zinc-200 bg-secondary-bg p-2 duration-300 hover:opacity-70 dark:border-zinc-800 dark:bg-primary-bg"
       >
-        <Image
-          src={logo}
-          className="object-contain"
-          alt={`${name} logo`}
-          fill
-        />
+        <Image src={logo} alt={`${name}`} fill sizes="78px" />
       </Link>
       <div className="flex flex-col items-start">
         <SectionTitle type="h3">{name}</SectionTitle>
@@ -51,9 +44,9 @@ export const ExperienceItem = ({
     </div>
 
     <ul className="space-y-2">
-      {description.map((desc) => (
+      {description.map((desc, index) => (
         <li
-          key={id}
+          key={index}
           className="flex text-sm tracking-tight before:mr-3 before:block before:content-['▹']"
         >
           <p className="[&_span]:text-tertiary-color dark:[&_span]:text-primary-color">
