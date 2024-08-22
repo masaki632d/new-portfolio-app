@@ -9,7 +9,7 @@ export const Usage = () => {
       <div className="space-y-6">
         <SectionTitle type="h2">Skills</SectionTitle>
         <p className="max-w-xl text-zinc-600 dark:text-zinc-400">
-          プロジェクトにおいて、以下のスキルを活用しています。
+          以下は、私がこれまで取り組んできたスキルです。
         </p>
       </div>
 
