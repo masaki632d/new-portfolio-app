@@ -9,14 +9,6 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'イーデス(SEO) - 投資信託ページ作成PJ',
-    slug: 'edesu',
-    image: '/projects/edesu.png',
-    text: '『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、金融系商材の比較・情報メディア',
-    name: 'Ateam-LifeDesign',
-  },
-  {
-    id: 3,
     title: 'ナビナビキャッシング(SEO)',
     slug: 'navinavi-seo',
     image: '/projects/navinavi_seo.png',
@@ -24,7 +16,7 @@ export const projects = [
     name: 'Ateam-LifeDesign',
   },
   {
-    id: 4,
+    id: 3,
     title: 'お金借りる？(SEO)',
     slug: 'karireru',
     image: '/projects/okane_kariru.png',
@@ -32,7 +24,7 @@ export const projects = [
     name: 'W-ENDLESS',
   },
   {
-    id: 5,
+    id: 4,
     title: 'JRおでかけネット',
     slug: 'odekake-net',
     image: '/projects/odekake_net.png',
@@ -40,7 +32,7 @@ export const projects = [
     name: 'Root-Sea',
   },
   {
-    id: 6,
+    id: 5,
     title: '医療ワーカー',
     slug: 'iryo-worker',
     image: '/projects/iryo_worker.png',

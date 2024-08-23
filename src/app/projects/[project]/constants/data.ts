@@ -35,25 +35,6 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: 'イーデス(SEO) - 投資信託コンテンツPJ',
-    slug: 'edesu',
-    image: '/projects/edesu.png',
-    name: 'Ateam-LifeDesign',
-    projectUrl: 'https://www.a-tm.co.jp/top/',
-    overviewText: [
-      '『暮らしの「まよい」を「よかった」に。』を理念メッセージとして、複数の金融系Webメディア（アフィリエイト - SEO/PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・ブランド構築と反映・リプレイス・保守/運用などを担当してきました。',
-    ],
-    technologyText: [
-      'Next.js / React / TypeScript / TailwindCSS / Sass',
-      'HTML / CSS / CSS Modules / Storybook / VRT（reg-suit + storycap） / Prettier / ESLint / Git',
-      'Figma / Photoshop / Illustrator',
-    ],
-    problemText: ['特定事業のPV / CVR改善'],
-    mainProjectText: ['<b>あああ</b><br>あああああ'],
-    keyExperienceText: ['チームでのアジャイル開発'],
-  },
-  {
-    id: 3,
     title: 'ナビナビキャッシング(SEO)',
     slug: 'navinavi-seo',
     image: '/projects/navinavi_seo.png',
@@ -77,7 +58,7 @@ export const projectsData = [
 
       '<b>期間</b><br>2020年1月〜2021年1月（※リプレイスPJ以外のタスク も同時並行）<br>　2020年1月〜2020年2月：PJの目的の精査 & 事業側との合意形成 & エンジニアとデザイナーのタスク切り分け<br>　2020年2月〜2020年3月：PJのキックオフ & タスク内容の大枠洗い出し & 工数見積もり<br>　2020年3月〜2020年4月：コーディング規約 と デザインガイドラインの策定 & CSS in JS の選定<br>　2020年5月〜2020年7月：共通ページ の React UI実装<br>　2020年7月〜2020年11月：各種ページ毎の React UI実装<br>　2020年11月〜2020年12月：受け入れテスト（社内 / 社外）& 不具合の修正対応 & Lighthouseスコア改善<br>　2021年1月：リリース対応完了',
 
-      '<b>苦労したこと</b><br>　React の経験はほとんどない状態でしたが、書籍 や 既存コード からキャッチアップし、PJ に貢献できました。<br>　リプレイスするページ数の物量が多かったですが、ページ種別ごとに切り分けて洗い出し、着実に進捗を出せました。<br>　スタイリングの選定 は迷いましたが、これまでのCSSライクに記述できる点をメリットとして Emotion を採用しました。',
+      '<b>苦労したこと</b><br>　React の経験はほとんどない状態でしたが、書籍 や 既存コード からキャッチアップし、PJ に貢献できました。<br>　リプレイスするページ数の物量が多かったですが、ページ種別ごとに切り分けて洗い出し、着実に進捗を出せました。<br>　スタイリングの選定 は迷いましたが、CSSライクに記述できる点をメリットとして Emotion を採用しました。',
 
       '<b>成果</b><br>Next.js / Reactでのリプレイスの効果<br>　社内の共通ライブラリの利用が可能に<br>　セキュリティリスクの低減<br>　モダンな開発環境による開発者体験の向上<br>　サイトのレスポンシブ化による運用コスト削減<br>表示速度改善<br>　トップページ：3s → 1s<br>Lighthouseによるスコア改善（計測可能な主要4項目）<br>　トップページ（リプレイス前）：Performance：68 / Accessibility：67 / Best practices：58 / SEO：78<br>　トップページ（リプレイス後）：Performance：100 / Accessibility：100 / Best practices：100 / SEO：100',
       '<b>その他の成果</b><br>デザイナー組織内で、Reactのメリットや実装方法、Atomic Design の設計方法など を社内共有会 で展開し、社内のデザイナーに対して知見を広める動きで貢献。',
@@ -91,7 +72,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: 'お金借りる？(SEO)',
     slug: 'karireru',
     image: '/projects/okane_kariru.png',
@@ -122,7 +103,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     title: 'JRおでかけネット',
     slug: 'odekake-net',
     image: '/projects/odekake_net.png',
@@ -152,7 +133,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     title: '医療ワーカー',
     slug: 'iryo-worker',
     image: '/projects/iryo_worker.png',

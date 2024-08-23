@@ -14,7 +14,7 @@ export const data = [
       '<b>概要</b><br>複数の金融系Webメディア の フロントエンド開発・デザイン を担当（アフィリエイト - SEO / PPC）。<br>その他、Webデザイン・UI/UX / CVR改善・デザインシステム導入・ブランド構築とプロダクトへの反映・リプレイス・保守/運用 などを担当しました。',
       '<b>得た経験</b><br>仕事を通して、様々なモダンフロントエンド技術を経験（Next.js・React・TypeScript・TailwindCSS・Storybook・VRTなど）。<br>また、Designer組織内での小規模なフロントエンド開発チームでリーダーを担当し、メンバー管理・PJのリード を経験しました。',
       '<b>技術スタック</b><br>Next.js / React / TypeScript / JavaScript / TailwindCSS / CSS Modules / Emotion / HTML / CSS / Sass / Storybook / VRT / Jest',
-      '<b>周辺ツール</b><br>Docker / Git / GitLab / Google Analytics 4 / Google Search Console',
+      '<b>周辺ツール</b><br>Docker / Git / GitLab / ChatGPT / Github Copilot / Google Analytics 4 / Google Search Console',
       '<b>デザインツール</b><br>Figma / Photoshop / Illustrator / XD',
     ],
     url: 'https://life-design.a-tm.co.jp/',

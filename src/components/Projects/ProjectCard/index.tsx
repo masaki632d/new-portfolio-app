@@ -17,13 +17,14 @@ export const ProjectCard = ({
       className="group flex flex-col space-x-0 space-y-6 rounded-lg border border-zinc-200 bg-secondary-bg p-6 md:flex-row md:space-x-6 lg:items-center lg:space-y-0 dark:border-zinc-800 dark:bg-primary-bg"
       href={`/projects/${slug}`}
     >
-      <div className="relative mx-auto h-44 w-80 shrink-0">
+      <div className="relative mx-auto h-44 w-full shrink-0 sm:w-80">
         <Image
           className="rounded-md bg-zinc-100 object-cover duration-300 group-hover:scale-110 dark:bg-zinc-800"
           src={image}
           alt={`${title} image`}
           fill
-          sizes="320px"
+          sizes="(max-width: 640px) 100vw, 320px"
+          priority
         />
       </div>
 
