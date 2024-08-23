@@ -17,40 +17,78 @@ export const projectsData = [
     overviewText: [
       '『暮らしの「まよい」を「よかった」に。』を理念メッセージとして、複数の金融系Webメディア（アフィリエイト - SEO/PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・ブランド構築と反映・リプレイス・保守/運用などを担当してきました。',
     ],
-    technologyText: ['xxx'],
-    problemText: ['xxx'],
-    mainProjectText: ['xxx'],
-    keyExperienceText: ['xxx'],
+    technologyText: [
+      'Next.js / React / TypeScript / TailwindCSS / Sass',
+      'HTML / CSS / CSS Modules / Storybook / VRT（reg-suit + storycap） / Prettier / ESLint / Git',
+      'Figma / Photoshop / Illustrator',
+    ],
+    problemText: [
+      'CVR改善',
+      'サイトブランドの認知度不足',
+      'サイト保守性の大きな低下',
+    ],
+    mainProjectText: ['<b>xxx</b><br>xxxxxx'],
+    keyExperienceText: [
+      'TailwindCSSでの、CSSリプレイスPJ の完遂',
+      'コーディング規約の周知と徹底',
+    ],
   },
   {
     id: 2,
+    title: 'イーデス(SEO) - 投資信託コンテンツPJ',
+    slug: 'edesu',
+    image: '/projects/edesu.png',
+    name: 'Ateam-LifeDesign',
+    projectUrl: 'https://www.a-tm.co.jp/top/',
+    overviewText: [
+      '『暮らしの「まよい」を「よかった」に。』を理念メッセージとして、複数の金融系Webメディア（アフィリエイト - SEO/PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・ブランド構築と反映・リプレイス・保守/運用などを担当してきました。',
+    ],
+    technologyText: [
+      'Next.js / React / TypeScript / TailwindCSS / Sass',
+      'HTML / CSS / CSS Modules / Storybook / VRT（reg-suit + storycap） / Prettier / ESLint / Git',
+      'Figma / Photoshop / Illustrator',
+    ],
+    problemText: ['特定事業のPV / CVR改善'],
+    mainProjectText: ['<b>あああ</b><br>あああああ'],
+    keyExperienceText: ['チームでのアジャイル開発'],
+  },
+  {
+    id: 3,
     title: 'ナビナビキャッシング(SEO)',
     slug: 'navinavi-seo',
     image: '/projects/navinavi_seo.png',
     name: 'Ateam-LifeDesign',
     projectUrl: 'https://a-cashing.com/',
     overviewText: [
-      '「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとしたナビナビブランド内の、キャッシング比較・情報メディア（SEOアフィリエイト）。',
+      'Ateam-LifeDesign社 で運営している、「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとした、ナビナビブランド内の キャッシング比較・情報メディア（SEOアフィリエイト）。',
+      'デザイン開発部 の Webデザイナー として所属。<br>主に CVR改善 の目的で、各職能との施策優先度会議を元に、サイト改善施策の遂行（フロントエンドUI実装・デザイン・社内ディレクション）を担当しました。',
     ],
-    technologyText: ['xxx'],
-    problemText: ['xxx'],
-    mainProjectText: ['xxx'],
-    keyExperienceText: ['xxx'],
-  },
-  {
-    id: 3,
-    title: 'ナビナビキャッシング(PPC)',
-    slug: 'navinavi-ppc',
-    image: '/projects/navinavi_ppc.png',
-    name: 'Ateam-LifeDesign',
-    projectUrl: 'https://a-cashing.com/cardloan/pc/aypl0001/y_listing/top/',
-    overviewText: [
-      '「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとしたナビナビブランド内の、キャッシング比較サイト（PPCアフィリエイト）。',
+    technologyText: [
+      '<b>リプレイス後</b><br>Next.js / React / TypeScript / Emotion / axios / Prettier / ESLint / lint-staged / husky / Git',
+      '<b>リプレイス前</b><br>Symfony（PHPフレームワーク） / WordPress（コンテンツ管理システム） / Sass（スタイリング）',
+      'Figma / Photoshop / Illustrator',
     ],
-    technologyText: ['xxx'],
-    problemText: ['xxx'],
-    mainProjectText: ['xxx'],
-    keyExperienceText: [],
+    problemText: [
+      '<b>Wordpress・Symfony の継続使用</b><br>固有の構成上、社内共通ライブラリ（主にバックエンドの機能）の恩恵を受けることができない。<br>　構成や設定 が老朽化しており、改修には多大な工数がかかる<br>固有の構成上、Wordpressのアップデートが難しい。<br>　アップデートできないことによる、脆弱性に対する攻撃リスク（セキュリティ問題）や Performance悪化 の懸念',
+      '<b>その他</b><br>古い技術の継続使用による、人材採用悪化の懸念。<br>CSSのスパゲッティコードの複雑性。<br>PC / SP 幅別デザインの二重管理による運用コストの増大。',
+    ],
+    mainProjectText: [
+      '<b>SEOサイト の リプレイスPJ</b><br>Wordpress・Symfony で運用されていたサイトを、上記の課題解決 を目的として、Next.js / React でリプレイスした PJ',
+
+      '<b>期間</b><br>2020年1月〜2021年1月（※リプレイスPJ以外のタスク も同時並行）<br>　2020年1月〜2020年2月：PJの目的の精査 & 事業側との合意形成 & エンジニアとデザイナーのタスク切り分け<br>　2020年2月〜2020年3月：PJのキックオフ & タスク内容の大枠洗い出し & 工数見積もり<br>　2020年3月〜2020年4月：コーディング規約 と デザインガイドラインの策定 & CSS in JS の選定<br>　2020年5月〜2020年7月：共通ページ の React UI実装<br>　2020年7月〜2020年11月：各種ページ毎の React UI実装<br>　2020年11月〜2020年12月：受け入れテスト（社内 / 社外）& 不具合の修正対応 & Lighthouseスコア改善<br>　2021年1月：リリース対応完了',
+
+      '<b>苦労したこと</b><br>　React の経験はほとんどない状態でしたが、書籍 や 既存コード からキャッチアップし、PJ に貢献できました。<br>　リプレイスするページ数の物量が多かったですが、ページ種別ごとに切り分けて洗い出し、着実に進捗を出せました。<br>　スタイリングの選定 は迷いましたが、これまでのCSSライクに記述できる点をメリットとして Emotion を採用しました。',
+
+      '<b>成果</b><br>Next.js / Reactでのリプレイスの効果<br>　社内の共通ライブラリの利用が可能に<br>　セキュリティリスクの低減<br>　モダンな開発環境による開発者体験の向上<br>　サイトのレスポンシブ化による運用コスト削減<br>表示速度改善<br>　トップページ：3s → 1s<br>Lighthouseによるスコア改善（計測可能な主要4項目）<br>　トップページ（リプレイス前）：Performance：68 / Accessibility：67 / Best practices：58 / SEO：78<br>　トップページ（リプレイス後）：Performance：100 / Accessibility：100 / Best practices：100 / SEO：100',
+      '<b>その他の成果</b><br>デザイナー組織内で、Reactのメリットや実装方法、Atomic Design の設計方法など を社内共有会 で展開し、社内のデザイナーに対して知見を広める動きで貢献。',
+    ],
+    keyExperienceText: [
+      '難易度の高い大きなPJ の 遂行/完了経験',
+      'タスクスケジュールのガントチャート管理',
+      'コンポーネント思考によるUI実装',
+      'デザインガイドライン / コーディング規約 の作成',
+      'レビュー文化がある環境での レビュイー / レビュワー経験',
+    ],
   },
   {
     id: 4,
