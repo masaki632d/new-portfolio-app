@@ -11,7 +11,7 @@ export const data = [
     startDate: '2019-10',
     endDate: null,
     description: [
-      '<b>概要</b><br>複数の金融系Webメディア の フロントエンド開発・デザイン を担当（アフィリエイト - SEO / PPC）。<br>その他、Webデザイン・UI/UX / CVR改善・デザインシステム導入・ブランド構築とプロダクトへの反映・リプレイス・保守/運用 などを担当しました。',
+      '<b>概要</b><br>複数の金融系Webメディア の フロントエンド開発・Webデザイン を担当（アフィリエイト - SEO / PPC）。<br>その他、UI/UX / CVR改善・デザインシステム導入・ブランド構築とプロダクトへの反映・リプレイス・保守/運用 などを担当しました。',
       '<b>得た経験</b><br>仕事を通して、様々なモダンフロントエンド技術を経験（Next.js・React・TypeScript・TailwindCSS・Storybook・VRTなど）。<br>また、Designer組織内での小規模なフロントエンド開発チームでリーダーを担当し、メンバー管理・PJのリード を経験しました。',
       '<b>技術スタック</b><br>Next.js / React / TypeScript / JavaScript / TailwindCSS / CSS Modules / Emotion / HTML / CSS / Sass / Storybook / VRT / Jest',
       '<b>周辺ツール</b><br>Docker / Git / GitLab / ChatGPT / Github Copilot / Google Analytics 4 / Google Search Console',
@@ -27,7 +27,7 @@ export const data = [
     startDate: '2019-01',
     endDate: '2019-09',
     description: [
-      '<b>概要</b><br>複数の金融・美容系WebメディアのWeb制作を担当。Webメディアの CVR改善 を主な目的とし、チーム内での解析データを元にした企画・新規コンテンツ制作・既存コンテンツ改善・UI/UX改善・フロントエンド開発・サイト表示速度改善・SEO改善などを担当しました。',
+      '<b>概要</b><br>複数の金融・美容系WebメディアのWeb制作を一貫して担当。CVR改善 を主な目的とし、解析データを元にしたチームでの施策の企画・新規コンテンツ制作・既存コンテンツ改善・UI/UX改善・フロントエンド開発・サイト表示速度改善・SEO改善などを担当しました。',
       '<b>得た経験</b><br>仕事を通して、アフィリエイトのビジネスモデルの理解や、PDCAのスピードの速い環境での仕事を経験することができました。',
       '<b>技術スタック</b><br>HTML / CSS / Sass / JavaScript / jQuery / PHP / SQL',
       '<b>周辺ツール</b><br>Wordpress / Git / AWS / Google Analytics / Google Search Console',
@@ -43,7 +43,7 @@ export const data = [
     startDate: '2017-01',
     endDate: '2019-01',
     description: [
-      '<b>概要</b><br>大手鉄道会社のポータルサイトのWeb制作を担当（デザイン・コーディング）。具体的には、レギュレーションに則ったキャンペーン施策に基づく新規コンテンツ制作、キャンペーン毎のLP制作、メルマガ運用、新規クライアントのWebサイト制作などを担当しました。',
+      '<b>概要</b><br>大手鉄道会社のポータルサイトのWeb制作を担当（デザイン・コーディング）。レギュレーションに則ったキャンペーン施策に基づく新規コンテンツ制作、キャンペーン毎のLP制作、メルマガ運用、新規クライアントのWebサイト制作などを担当しました。',
       '<b>得た経験</b><br>仕事を通して、制作会社の中でのルールや仕組み化などを考慮した仕事を経験することができました。',
       '<b>技術スタック</b><br>HTML / CSS / Sass / JavaScript / jQuery',
       '<b>周辺ツール</b><br>Wordpress / Git / Gulp',
