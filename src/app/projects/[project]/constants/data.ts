@@ -24,8 +24,8 @@ export const projectsData = [
       'Figma / Photoshop / Illustrator',
     ],
     problemText: [
-      '<b>SEOサイトの検索順位向上・CVR改善</b><br>Googleに評価されるためのコンテンツとして、E-E-A-T「Experience（経験）/ Expertise（専門性）/ Authoritativeness（権威性）/ Trustworthiness（信頼性）」を考慮し、主に 新規コンテンツ制作 によって対応',
-      '<b>CSS設計不全によるサイト保守性の大幅な低下</b><br>PJ初期段階では小規模なサービスを想定しており、事業としての初速を出すため、既存サイトの構成をテンプレートとして横展開。サイト運用していく中で規模が大きくなり、CSSにおける設計不全が原因で、リリース時の表示崩れが多発。<br>具体的な問題としては、コンポーネントによって CSS Modulesのスタイル と プレーンなCSSクラス を混在させて使用しており、CSSの二重読み込み や 詳細度の複雑性が高くなり、不安定な状態に陥っていた。',
+      '<b>SEOサイトの検索順位向上・CVR改善</b><br>Googleに評価されやすくするためのコンテンツとして、E-E-A-T「Experience（経験）/ Expertise（専門性）/ Authoritativeness（権威性）/ Trustworthiness（信頼性）」を考慮した新規コンテンツ制作 を進める必要があった。',
+      '<b>CSS設計不全によるサイト保守性の大幅な低下</b><br>PJ初期段階では小規模なサービスを想定しており、事業としての初速を出すため、既存サイトの構成をテンプレートとして横展開。<br>サイト運用していく中で規模が大きくなり、CSSにおける設計不全が原因で、リリース時の表示崩れが多発。<br>原因としては、コンポーネントによって CSS Modulesのスタイル と プレーンなCSSクラス を混在させて使用しており、CSSの二重読み込み や 詳細度の複雑性が高くなり、不安定な状態に陥っていた。',
     ],
     mainProjectText: [
       '<b>① 証券領域 - IPO情報コンテンツPJ（新規コンテンツ制作）</b><br>制作期間：2023年2月〜2023年7月<br>詳細内容：<a className="underline" href="https://prtimes.jp/main/html/rd/p/000002325.000001348.html" target="_blank" rel="noopener noreferrer">『PR TIMES：注目のIPO銘柄が一目でわかる！専門家の初値評価が確認できるIPO情報コンテンツ』</a>',
