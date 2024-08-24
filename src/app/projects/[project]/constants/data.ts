@@ -28,9 +28,9 @@ export const projectsData = [
       '<b>CSS設計不全によるサイト保守性の大幅な低下</b><br>PJ初期段階では小規模なサービスを想定しており、事業としての初速を出すため、既存サイトの構成をテンプレートとして横展開。サイト運用していく中で規模が大きくなり、CSSにおける設計不全が原因で、リリース時の表示崩れが多発。<br>具体的な問題としては、コンポーネントによって CSS Modulesのスタイル と プレーンなCSSクラス を混在させて使用しており、CSSの二重読み込み や 詳細度の複雑性が高くなり、不安定な状態に陥っていた。',
     ],
     mainProjectText: [
-      '<b>① 証券領域 - IPO情報コンテンツPJ（新規コンテンツ制作）</b><br>制作期間：2023年2月〜2023年7月<br>『注目のIPO銘柄が一目でわかる！専門家の初値評価が確認できるIPO情報コンテンツ』<br>ページURL：<a href="https://www.a-tm.co.jp/top/securities/ipo/" target="_blank" rel="noopener noreferrer">https://www.a-tm.co.jp/top/securities/ipo/</a><br>詳細内容（PR TIMES）：<a href="https://prtimes.jp/main/html/rd/p/000002325.000001348.html" target="_blank" rel="noopener noreferrer">https://prtimes.jp/main/html/rd/p/000002325.000001348.html</a>',
+      '<b>① 証券領域 - IPO情報コンテンツPJ（新規コンテンツ制作）</b><br>制作期間：2023年2月〜2023年7月<br>詳細内容：<a className="underline" href="https://prtimes.jp/main/html/rd/p/000002325.000001348.html" target="_blank" rel="noopener noreferrer">『PR TIMES：注目のIPO銘柄が一目でわかる！専門家の初値評価が確認できるIPO情報コンテンツ』</a>',
 
-      '<b>② 証券領域 - 投資信託積立シミュレーションPJ（新規コンテンツ制作）</b><br>制作期間：2022年2月〜2022年7月<br>『投資信託の選び方から購入方法まですべてのステップをサポートするナビナビ積立シミュレーションコンテンツ』<br>ページURL：<a href="https://www.a-tm.co.jp/top/securities/investment-trusts-simulation/03311187/" target="_blank" rel="noopener noreferrer">https://www.a-tm.co.jp/top/securities/investment-trusts-simulation/03311187/</a><br>詳細内容（PR TIMES）：<a href="https://prtimes.jp/main/html/rd/p/000002131.000001348.html" target="_blank" rel="noopener noreferrer">https://prtimes.jp/main/html/rd/p/000002131.000001348.html</a>',
+      '<b>② 証券領域 - 投資信託積立シミュレーションPJ（新規コンテンツ制作）</b><br>制作期間：2022年2月〜2022年7月<br>詳細内容：<a className="underline" href="https://prtimes.jp/main/html/rd/p/000002131.000001348.html" target="_blank" rel="noopener noreferrer">『PR TIMES：投資信託の選び方から購入方法までサポートするナビナビ積立シミュレーションコンテンツ』</a>',
 
       '<b>③ TailwindCSSリプレイスPJ</b><br>制作期間：2022年8月〜2023年1月<br>CSS Modules / プレーンなCSSクラス で運用されていたサイトを、負債解消の目的で TailwindCSS にリプレイスした PJ',
 
