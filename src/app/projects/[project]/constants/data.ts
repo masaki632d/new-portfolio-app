@@ -15,22 +15,34 @@ export const projectsData = [
     name: 'Ateam-LifeDesign',
     projectUrl: 'https://www.a-tm.co.jp/top/',
     overviewText: [
-      '『暮らしの「まよい」を「よかった」に。』を理念メッセージとして、複数の金融系Webメディア（アフィリエイト - SEO/PPC）のフロントエンド開発・Webデザイン・UI/UX / CVR改善・ブランド構築と反映・リプレイス・保守/運用などを担当してきました。',
+      'Ateam-LifeDesign社 で運営している、『暮らしの「まよい」を「よかった」に。』を理念メッセージとした、イーデスブランドとしての 金融商品比較・情報メディア（SEOアフィリエイト）',
+      'デザイン開発部 の Developmentデザイナー として所属。<br>主に CVR改善 の目的で、各職能との施策優先度会議を元に、フロントエンド開発・Webデザイン・UI/UX / CVR改善・TailwindCSSへのリプレイス・VIとブランド構築のサイトへの反映・保守/運用 などを担当しました。',
     ],
     technologyText: [
-      'Next.js / React / TypeScript / TailwindCSS / Sass',
-      'HTML / CSS / CSS Modules / Storybook / VRT（reg-suit + storycap） / Prettier / ESLint / Git',
+      'Next.js / React / TypeScript / TailwindCSS / CSS Modules(※一部の機能レイアウトで使用)',
+      'Storybook / VRT（reg-suit + storycap） / GraphQL / MSW / Recharts / Jest / Prettier / ESLint / Docker / Git',
       'Figma / Photoshop / Illustrator',
     ],
     problemText: [
-      'CVR改善',
-      'サイトブランドの認知度不足',
-      'サイト保守性の大きな低下',
+      '<b>SEOサイトの検索順位向上・CVR改善</b><br>Googleに評価されるためのコンテンツとして、E-E-A-T「Experience（経験）/ Expertise（専門性）/ Authoritativeness（権威性）/ Trustworthiness（信頼性）」を考慮し、主に 新規コンテンツ制作 によって対応',
+      '<b>CSS設計不全によるサイト保守性の大幅な低下</b><br>PJ初期段階では小規模なサービスを想定しており、事業としての初速を出すため、既存サイトの構成をテンプレートとして横展開。サイト運用していく中で規模が大きくなり、CSSにおける設計不全が原因で、リリース時の表示崩れが多発。<br>具体的な問題としては、コンポーネントによって CSS Modulesのスタイル と プレーンなCSSクラス を混在させて使用しており、CSSの二重読み込み や 詳細度の複雑性が高くなり、不安定な状態に陥っていた。',
     ],
-    mainProjectText: ['<b>xxx</b><br>xxxxxx'],
+    mainProjectText: [
+      '<b>① 証券領域 - IPO情報コンテンツPJ（新規コンテンツ制作）</b><br>制作期間：2023年2月〜2023年7月<br>『注目のIPO銘柄が一目でわかる！専門家の初値評価が確認できるIPO情報コンテンツ』<br>ページURL：<a href="https://www.a-tm.co.jp/top/securities/ipo/" target="_blank" rel="noopener noreferrer">https://www.a-tm.co.jp/top/securities/ipo/</a><br>詳細内容（PR TIMES）：<a href="https://prtimes.jp/main/html/rd/p/000002325.000001348.html" target="_blank" rel="noopener noreferrer">https://prtimes.jp/main/html/rd/p/000002325.000001348.html</a>',
+
+      '<b>② 証券領域 - 投資信託積立シミュレーションPJ（新規コンテンツ制作）</b><br>制作期間：2022年2月〜2022年7月<br>『投資信託の選び方から購入方法まですべてのステップをサポートするナビナビ積立シミュレーションコンテンツ』<br>ページURL：<a href="https://www.a-tm.co.jp/top/securities/investment-trusts-simulation/03311187/" target="_blank" rel="noopener noreferrer">https://www.a-tm.co.jp/top/securities/investment-trusts-simulation/03311187/</a><br>詳細内容（PR TIMES）：<a href="https://prtimes.jp/main/html/rd/p/000002131.000001348.html" target="_blank" rel="noopener noreferrer">https://prtimes.jp/main/html/rd/p/000002131.000001348.html</a>',
+
+      '<b>③ TailwindCSSリプレイスPJ</b><br>制作期間：2022年8月〜2023年1月<br>CSS Modules / プレーンなCSSクラス で運用されていたサイトを、負債解消の目的で TailwindCSS にリプレイスした PJ',
+
+      '<b>苦労したこと</b><br>TailwindCSSのインライン記法に対する慣れ。<br>リプレイスするページ数の物量が多かったですが、ページ種別ごとに切り分けて洗い出し、着実に進捗を出せました。',
+
+      '<b>成果</b><br>作成したコーディング規約の運用 と TailwindCSSへのリプレイスによって、CSSの二重読み込みの負債が解消。<br>表示崩れによる機会損失の回避・開発運用コスト削減・不要CSS削減によるPerformance改善 に繋がりました。',
+    ],
     keyExperienceText: [
-      'TailwindCSSでの、CSSリプレイスPJ の完遂',
-      'コーディング規約の周知と徹底',
+      'Next.js / Reactなどのモダンフロントエンド技術の経験',
+      'TailwindCSS での CSSリプレイスPJ の遂行/完了経験',
+      'コーディング規約の作成と周知',
+      'storycap + reg-suit による StorybookベースのVRT',
     ],
   },
   {
@@ -41,30 +53,30 @@ export const projectsData = [
     name: 'Ateam-LifeDesign',
     projectUrl: 'https://a-cashing.com/',
     overviewText: [
-      'Ateam-LifeDesign社 で運営している、「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとした、ナビナビブランド内の キャッシング比較・情報メディア（SEOアフィリエイト）。',
+      'Ateam-LifeDesign社 で運営している、「将来のお金の不安を解消するための金融知識・情報を提供する」をメッセージとした、ナビナビブランド内の キャッシング比較・情報メディア（SEOアフィリエイト）',
       'デザイン開発部 の Webデザイナー として所属。<br>主に CVR改善 の目的で、各職能との施策優先度会議を元に、サイト改善施策の遂行（フロントエンドUI実装・デザイン・社内ディレクション）を担当しました。',
     ],
     technologyText: [
-      '<b>リプレイス後</b><br>Next.js / React / TypeScript / Emotion / axios / Prettier / ESLint / lint-staged / husky / Git',
-      '<b>リプレイス前</b><br>Symfony（PHPフレームワーク） / WordPress（コンテンツ管理システム） / Sass（スタイリング）',
+      '<b>リプレイス後</b><br>Next.js / React / TypeScript / Emotion / axios / Prettier / ESLint / lint-staged / husky / Git<br>バックエンドは Ruby on Rails の API構築',
+      '<b>リプレイス前</b><br>WordPress（コンテンツ管理システム） / Sass（スタイリング）<br>バックエンドは Symfony（PHPフレームワーク）',
       'Figma / Photoshop / Illustrator',
     ],
     problemText: [
-      '<b>Wordpress・Symfony の継続使用</b><br>固有の構成上、社内共通ライブラリ（主にバックエンドの機能）の恩恵を受けることができない。<br>　構成や設定 が老朽化しており、改修には多大な工数がかかる<br>固有の構成上、Wordpressのアップデートが難しい。<br>　アップデートできないことによる、脆弱性に対する攻撃リスク（セキュリティ問題）や Performance悪化 の懸念',
-      '<b>その他</b><br>古い技術の継続使用による、人材採用悪化の懸念。<br>CSSのスパゲッティコードの複雑性。<br>PC / SP 幅別デザインの二重管理による運用コストの増大。',
+      '<b>Wordpress・Symfony を継続使用した際の問題</b><br>固有の構成の都合上、社内共通ライブラリの恩恵を受けることができず、またWordpressのアップデートが難しい。<br>アップデートできないことによる、脆弱性に対する攻撃リスク（セキュリティ問題）や Performance悪化 の懸念がある。<br>また、構成や設定 が老朽化しており、改修するためには多大な工数がかかる。',
+      '<b>その他の問題</b><br>CSSのスパゲッティコードの複雑性。<br>PC / SP 幅別デザインの二重管理による運用コストの増大。<br>古い技術の継続使用による、人材採用悪化の懸念。',
     ],
     mainProjectText: [
-      '<b>SEOサイト の リプレイスPJ</b><br>Wordpress・Symfony で運用されていたサイトを、上記の課題解決 を目的として、Next.js / React でリプレイスした PJ',
+      '<b>SEOサイト の リプレイスPJ</b><br>Wordpress・Symfony で運用されていたサイトを、上記の課題解決 を目的として、Next.js / React でリプレイスした PJ <br>（※並行して、リプレイスPJ以外のタスクも対応）',
 
-      '<b>期間</b><br>2020年1月〜2021年1月（※リプレイスPJ以外のタスク も同時並行）<br>　2020年1月〜2020年2月：PJの目的の精査 & 事業側との合意形成 & エンジニアとデザイナーのタスク切り分け<br>　2020年2月〜2020年3月：PJのキックオフ & タスク内容の大枠洗い出し & 工数見積もり<br>　2020年3月〜2020年4月：コーディング規約 と デザインガイドラインの策定 & CSS in JS の選定<br>　2020年5月〜2020年7月：共通ページ の React UI実装<br>　2020年7月〜2020年11月：各種ページ毎の React UI実装<br>　2020年11月〜2020年12月：受け入れテスト（社内 / 社外）& 不具合の修正対応 & Lighthouseスコア改善<br>　2021年1月：リリース対応完了',
+      '<b>期間とスケジュール</b><br><b>[2020年1月〜2021年1月]</b><br>2020年1月〜2020年2月：PJの目的の精査 & 事業側との合意形成 & エンジニアとデザイナーのタスク切り分け<br>2020年2月〜2020年3月：PJのキックオフ & タスク内容の大枠洗い出し & 工数見積もり<br>2020年3月〜2020年4月：コーディング規約 と デザインガイドラインの策定 & CSS in JS の選定<br>2020年5月〜2020年7月：共通ページ の React UI実装<br>2020年7月〜2020年11月：各種ページ毎の React UI実装<br>2020年11月〜2020年12月：受け入れテスト（社内 / 社外）& 不具合の修正対応 & Lighthouseスコア改善<br>2021年1月〜2021年1月：リリース対応完了',
 
-      '<b>苦労したこと</b><br>　React の経験はほとんどない状態でしたが、書籍 や 既存コード からキャッチアップし、PJ に貢献できました。<br>　リプレイスするページ数の物量が多かったですが、ページ種別ごとに切り分けて洗い出し、着実に進捗を出せました。<br>　スタイリングの選定 は迷いましたが、CSSライクに記述できる点をメリットとして Emotion を採用しました。',
+      '<b>苦労したこと</b><br>React の経験はほとんどない状態でしたが、書籍 や 既存コード からキャッチアップし、PJ に貢献できました。<br>リプレイスするページ数の物量が多かったですが、ページ種別ごとに切り分けて洗い出し、着実に進捗を出せました。<br>スタイリングの技術選定 は迷いましたが、既存のデザイナーがCSSライクに記述できる点を一番のメリットとして、Emotion を採用しました。',
 
-      '<b>成果</b><br>Next.js / Reactでのリプレイスの効果<br>　社内の共通ライブラリの利用が可能に<br>　セキュリティリスクの低減<br>　モダンな開発環境による開発者体験の向上<br>　サイトのレスポンシブ化による運用コスト削減<br>表示速度改善<br>　トップページ：3s → 1s<br>Lighthouseによるスコア改善（計測可能な主要4項目）<br>　トップページ（リプレイス前）：Performance：68 / Accessibility：67 / Best practices：58 / SEO：78<br>　トップページ（リプレイス後）：Performance：100 / Accessibility：100 / Best practices：100 / SEO：100',
-      '<b>その他の成果</b><br>デザイナー組織内で、Reactのメリットや実装方法、Atomic Design の設計方法など を社内共有会 で展開し、社内のデザイナーに対して知見を広める動きで貢献。',
+      '<b>成果</b><br><b>[Next.js / Reactでのリプレイスの効果]</b></b><br>社内の共通ライブラリの利用が可能に<br>セキュリティリスクの低減<br>サイトのレスポンシブ化で運用コストを1/2に削減<br>モダンな開発環境による開発者体験の向上<br><br><b>[表示速度改善]</b><br>トップページ：3s → 1s<br><br><b>[Lighthouseによるスコア改善]</b><br>トップページ (リプレイス前)：Performance：68  / Accessibility：67  / Best practices：58 / SEO：65<br>トップページ (リプレイス後)：Performance：100 / Accessibility：100 / Best practices：100 / SEO：100',
+      '<b>その他の成果</b><br>デザイナー組織内で、Reactのメリットや実装方法、Atomic Design の設計方法などを社内共有会 で展開し、社内のデザイナーに対して知見を広める動きで貢献。',
     ],
     keyExperienceText: [
-      '難易度の高い大きなPJ の 遂行/完了経験',
+      '難易度と規模の大きいPJ の 遂行/完了経験',
       'タスクスケジュールのガントチャート管理',
       'コンポーネント思考によるUI実装',
       'デザインガイドライン / コーディング規約 の作成',
